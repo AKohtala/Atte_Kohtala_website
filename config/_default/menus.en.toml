@@ -1,0 +1,24 @@
+############# Finnish navigation ##############
+
+[[main]]
+name = "Pianist"
+url = "/en/piano"
+weight = 1
+
+[[main]]
+name = "Photographer"
+url = "/en/photography"
+weight = 2
+
+
+# footer menu
+[[footer]]
+name = "Pianist"
+url = "/en/piano"
+weight = 1
+
+[[footer]]
+name = "Photographer"
+url = "/en/photography"
+weight = 2
+

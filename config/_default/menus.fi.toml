@@ -1,0 +1,24 @@
+############# Finnish navigation ##############
+
+[[main]]
+name = "Pianisti"
+url = "/piano"
+weight = 2
+
+[[main]]
+name = "Valokuvaaja"
+url = "/valokuvaus"
+weight = 2
+
+
+# footer menu
+[[footer]]
+name = "Pianisti"
+url = "/piano"
+weight = 1
+
+[[footer]]
+name = "Valokuvaaja"
+url = "/valokuvaus"
+weight = 2
+
