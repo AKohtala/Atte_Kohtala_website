@@ -12,3 +12,10 @@ search_initial_message: Type something to search..
 search_navigate: to navigate
 search_select: to select
 search_close: to close
+businessID: "Business ID"
+contact: "Contact Information"
+contacteg: "You can contact me using the form or the details below."
+email: "Email address "
+full_name: "Full name "
+message: "Message "
+submit: "Submit"

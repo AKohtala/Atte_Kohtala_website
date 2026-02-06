@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Contact!"
-    link: "mailto:akohtalacontact@gmail.com"
+    link: "/en/contact"
 
 # Kuvia muokataan (WEBP-muotoon): (assets) /images/kuva.jpg
 # Kuvia ei muokata ollenkaan:     (static/) assets/images/kuva.jpg
@@ -39,7 +39,7 @@ features:
     button:
       enable: true
       label: "Hire me today!"
-      link: "mailto:akohtalacontact@gmail.com"
+      link: "/en/contact"
 
   # - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     # image: "/images/service-3.png"

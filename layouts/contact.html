@@ -5,47 +5,42 @@
   <section class="section-sm">
     <div class="container">
       <div class="row">
-        <div class="md:col-10 lg:col-6 mx-auto">
-          <form action="{{ site.Params.contact_form_action }}" method="POST">
-            <div class="mb-6">
-              <label for="name" class="form-label">
-                Koko nimi / Full Name <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="name"
-                name="name"
-                class="form-input"
-                placeholder="Nimi / Name"
-                type="text" />
-            </div>
-            <div class="mb-6">
-              <label for="email" class="form-label">
-                Sähköposti / Email <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="email"
-                name="email"
-                class="form-input"
-                placeholder="Email"
-                type="email" />
-            </div>
-            <div class="mb-6">
-              <label for="message" class="form-label">
-                Viesti / Message <span class="text-red-500">*</span>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="form-input"
-                placeholder="Kirjoita tähän / Write here"
-                rows="8"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
+        <div class="md:col-5 lg:col-4 mx-auto mb-10 md:mb-0">
+        <h2 class="h3 mb-4">{{ i18n "contact" }}</h2>
+        <p class="mb-6">{{ i18n "contacteg" }}</p>
+        
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <strong>{{ i18n "businessID" }}</strong><br>
+            3590916-9
+          </li>
+          <li class="mb-3">
+            <strong>{{ i18n "email" }}</strong><br>
+            <a href="mailto:akohtalacontact@gmail.com" class="text-primary" target="_blank" rel="noopener noreferrer">akohtalacontact@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="md:col-7 lg:col-6 mx-auto">
+        <form action="{{ site.Params.contact_form_action }}" method="POST">
+          <div class="mb-6">
+            <label for="name" class="form-label">{{ i18n "full_name" }}<span class="text-red-500">*</span></label>
+            <input id="name" name="name" class="form-input" placeholder="Matti Meikäläinen" type="text" required />
+          </div>
+          <div class="mb-6">
+            <label for="email" class="form-label">{{ i18n "email" }}<span class="text-red-500">*</span></label>
+            <input id="email" name="email" class="form-input" placeholder="your.email@email.com" type="email" required />
+          </div>
+          <div class="mb-6">
+            <label for="message" class="form-label">{{ i18n "message" }}<span class="text-red-500">*</span></label>
+            <textarea id="message" name="message" class="form-input" placeholder="Hey!" rows="8" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-full">{{ i18n "submit"}}</button>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- google map -->
   {{ with site.Params.google_map }}
