@@ -17,7 +17,7 @@ Tarkemmin voit tutustua tuotantooni esimerkiksi [**Instagramissa**](https://www.
 
 {{< figure src="/images/Auringonlasku-7.jpg" caption="Auringonlasku Sallassa." alt="Auringonlasku Sallassa" >}}
 
-{{< figure src="/images/IMG_0205-01.JPEG" caption="Poro." alt="Poro" >}}
+{{< figure src="/images/IMG_0205-01.jpeg" caption="Poro." alt="Poro" >}}
 
 {{< figure src="/images/Italia25-64.jpg" caption="Lintu lentää kattojen yli." alt="Lintu lentää kattojen yli" >}}
 
@@ -27,6 +27,6 @@ Tarkemmin voit tutustua tuotantooni esimerkiksi [**Instagramissa**](https://www.
 
 {{< figure src="/images/Lentokoneet-29.jpg" caption="Lentokone." alt="Lentokone" >}}
 
-{{< figure src="/images/IMG_8174-03-01.JPEG" caption="Poro." alt="Poro" >}}
+{{< figure src="/images/IMG_8174-03-01.jpeg" caption="Poro." alt="Poro" >}}
 
-{{< figure src="/images/IMG_8513-01.JPEG" caption="Höyryävä Saimaa." alt="Höyryävä Saimaa" >}}
+{{< figure src="/images/IMG_8513-01.jpeg" caption="Höyryävä Saimaa." alt="Höyryävä Saimaa" >}}

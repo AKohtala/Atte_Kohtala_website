@@ -17,7 +17,7 @@ Check my work from [**Instagram**](https://www.instagram.com/akohtala) or
 
 {{< figure src="/images/Auringonlasku-7.jpg" caption="Sunset." alt="Sunset" >}}
 
-{{< figure src="/images/IMG_0205-01.JPEG" caption="Reindeer." alt="Reindeer" >}}
+{{< figure src="/images/IMG_0205-01.jpeg" caption="Reindeer." alt="Reindeer" >}}
 
 {{< figure src="/images/Italia25-64.jpg" caption="A bird flies over the rooftops." alt="A bird flies over the rooftops" >}}
 
@@ -27,6 +27,6 @@ Check my work from [**Instagram**](https://www.instagram.com/akohtala) or
 
 {{< figure src="/images/Lentokoneet-29.jpg" caption="Airplane." alt="Airplane" >}}
 
-{{< figure src="/images/IMG_8174-03-01.JPEG" caption="Reindeer." alt="Reindeer" >}}
+{{< figure src="/images/IMG_8174-03-01.jpeg" caption="Reindeer." alt="Reindeer" >}}
 
-{{< figure src="/images/IMG_8513-01.JPEG" caption="Steaming Lake Saimaa." alt="Steaming Lake Saimaa" >}}
+{{< figure src="/images/IMG_8513-01.jpeg" caption="Steaming Lake Saimaa." alt="Steaming Lake Saimaa" >}}
