@@ -3,7 +3,7 @@
 banner:
   title: "Atte Kohtala"
   content: "Pianist and photographer."
-  image: "assets/images/Taitelijakuva-2.png"
+  image: "assets/images/taitelijakuva-2.png"
   button:
     enable: true
     label: "Contact!"
@@ -48,7 +48,7 @@ features:
       # - "Instantly load static sites for better user experience and SEO."
       # - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
       # - "Use any front-end library or framework, or build custom components, for any project size."
-      # - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      # - "Builton cutting-edge technology to keep your projects up-to-date with the latest web standards."
     # button:
       # enable: false
       # label: ""
