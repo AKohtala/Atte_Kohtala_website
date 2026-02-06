@@ -3,11 +3,14 @@
 banner:
   title: "Atte Kohtala"
   content: "Pianist and photographer."
-  image: "/images/Taitelijakuva-2.jpg"
+  image: "/images/Taitelijakuva-2.png"
   button:
     enable: true
     label: "Contact!"
     link: "mailto:akohtalacontact@gmail.com"
+
+# Kuvia muokataan (WEBP-muotoon): (assets) /images/kuva.jpg
+# Kuvia ei muokata ollenkaan:     (static/) assets/images/kuva.jpg
 
 # Features
 features:
@@ -27,7 +30,7 @@ features:
       # link: "#"
 
   - title: "Why should you hire me?"
-    image: "/images/kadet.jpg"
+    image: "/images/kadet.png"
     # content: "Suurimpia syitä ovat ainakin:"
     bulletpoints:
       - "I'm an experienced and reliable performer. I will survive in every situation."

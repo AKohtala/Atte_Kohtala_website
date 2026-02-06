@@ -12,20 +12,47 @@ Kuvaan monipuolisesti sekä luonto- että kaupunkiympäristöjä, urheilua ja ih
 Tarkemmin voit tutustua tuotantooni esimerkiksi [**Instagramissa**](https://www.instagram.com/akohtala) tai 
 [**Facebookissa**](https://www.facebook.com/attekohtalafinland).
 
-![Revontulia.](/images/Revontulet2-36.jpg)
+<figure>
+  <img src="/images/Revontulet2-36.jpg" alt="Revontulia">
+  <figcaption>Revontulia Sallassa.</figcaption>
+</figure>
 
-![Auringonlasku.](/images/Auringonlasku-7.jpg)
+<figure>
+  <img src="/images/Auringonlasku-7.jpg" alt="Auringonlasku">
+  <figcaption>Auringonlasku Sallassa.</figcaption>
+</figure>
 
-![Poro.](/images/IMG_0205-01.JPEG)
+<figure>
+  <img src="/images/IMG_0205-01.JPEG" alt="Poro">
+  <figcaption>Poro.</figcaption>
+</figure>
 
-![Lintu lentää kattojen yli.](/images/Italia25-64.jpg)
+<figure>
+  <img src="/images/Italia25-64.jpg" alt="Lintu lentää kattojen yli">
+  <figcaption>Lintu lentää kattojen yli.</figcaption>
+</figure>
 
-![Puita.](/images/Italia25-125.jpg)
+<figure>
+  <img src="/images/Italia25-125.jpg" alt="Puita">
+  <figcaption>Puita.</figcaption>
+</figure>
 
-![Puita.](/images/Italia25-136.jpg)
+<figure>
+  <img src="/images/Italia25-136.jpg" alt="Puita">
+  <figcaption>Puita.</figcaption>
+</figure>
 
-![Lentokone.](/images/Lentokoneet-29.jpg)
+<figure>
+  <img src="/images/Lentokoneet-29.jpg" alt="Lentokone">
+  <figcaption>Lentokone.</figcaption>
+</figure>
 
-![Poro.](/images/IMG_8174-03-01.JPEG)
+<figure>
+  <img src="/images/IMG_8174-03-01.JPEG" alt="Poro">
+  <figcaption>Poro.</figcaption>
+</figure>
 
-![Höyryävä Saimaa.](/images/IMG_8513-01.JPEG)
+<figure>
+  <img src="/images/IMG_8513-01.JPEG" alt="Höyryävä Saimaa">
+  <figcaption>Höyryävä Saimaa.</figcaption>
+</figure>

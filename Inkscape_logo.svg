@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="295mm"
+   height="74mm"
+   viewBox="0 0 295 74"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="Inkscape_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4702524"
+     inkscape:cx="515.21766"
+     inkscape:cy="145.89332"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:47.8312px;line-height:0;letter-spacing:0.25108px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.358733"
+       x="3.3521504"
+       y="54.189205"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:47.8312px;line-height:0;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0.25108px;stroke-width:0.358733"
+         x="3.3521504"
+         y="54.189205">Atte Kohtala</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Taso 2">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.3857px;line-height:0;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:1.01192px;writing-mode:lr-tb;direction:ltr;fill:#ececec;stroke-width:0.738443;fill-opacity:1"
+       x="1.6545069"
+       y="54.930084"
+       id="text2"
+       inkscape:export-filename="static\assets\images\logo_tumma.png"
+       inkscape:export-xdpi="94.539665"
+       inkscape:export-ydpi="94.539665"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.3857px;font-family:Signika;-inkscape-font-specification:'Signika Semi-Bold';letter-spacing:1.01192px;fill:#ececec;fill-opacity:1;stroke-width:0.738443"
+         x="1.6545069"
+         y="54.930084">Atte Kohtala</tspan></text>
+  </g>
+</svg>

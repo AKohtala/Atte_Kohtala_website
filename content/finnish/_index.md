@@ -3,11 +3,15 @@
 banner:
   title: "Atte Kohtala"
   content: "Pianisti ja valokuvaaja."
-  image: "/images/Taitelijakuva-2.jpg"
+  image: "/images/Taitelijakuva-2.png"
   button:
     enable: true
     label: "Ota yhteyttä!"
     link: "mailto:akohtalacontact@gmail.com"
+
+
+# Kuvia muokataan (WEBP-muotoon): (assets) /images/kuva.jpg
+# Kuvia ei muokata ollenkaan:     (static/) assets/images/kuva.jpg
 
 # Features
 features:
@@ -27,7 +31,7 @@ features:
       # link: "#"
 
   - title: "Miksi minut kannattaa tilata keikalle?"
-    image: "/images/kadet.jpg"
+    image: "/images/kadet.png"
     # content: "Suurimpia syitä ovat ainakin:"
     bulletpoints:
       - "Olen kokenut ja luotettava esiintyjä. Selviän siis tilanteesta kuin tilanteesta."
