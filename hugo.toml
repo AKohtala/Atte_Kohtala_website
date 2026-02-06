@@ -18,6 +18,10 @@ defaultContentLanguage = 'fi'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = false
 
+[params]
+  description = "Atte Kohtala – pianisti ja valokuvaaja"
+  images = ["/images/og-image.png"]
+
 [languages]
   [languages.fi]
     languageName = "FI"
