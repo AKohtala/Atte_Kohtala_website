@@ -12,3 +12,10 @@ search_initial_message: Kirjoita jotain hakeaksesi...
 search_navigate: navigoi
 search_select: valitse
 search_close: sulje
+businessID: "Y-tunnus"
+contact: "Yhteystiedot"
+contacteg: "Voit ottaa yhteyttä lomakkeella tai käyttää alla olevia tietoja."
+email: "Sähköposti "
+full_name: "Koko nimi "
+message: "Viesti "
+submit: "Lähetä"
