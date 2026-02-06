@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70.872749mm"
+   height="34.367203mm"
+   viewBox="0 0 70.872749 34.367203"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="Inkscape_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4702524"
+     inkscape:cx="272.40221"
+     inkscape:cy="88.080115"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="70.872749"
+       height="34.367203"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none"
+     transform="translate(-0.54336441,-19.298642)">
+    <text
+       xml:space="preserve"
+       style="font-size:47.8312px;line-height:0;letter-spacing:0.25108px;writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:0.358733"
+       x="3.3521504"
+       y="54.189205"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:47.8312px;line-height:0;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0.25108px;stroke-width:0.358733"
+         x="3.3521504"
+         y="54.189205">Atte Kohtala</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Taso 2"
+     transform="translate(-0.54336441,-19.298642)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:48.4728px;line-height:0;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:1.79904px;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;fill-opacity:1;stroke-width:0.683286"
+       x="1.4158578"
+       y="53.66584"
+       id="text2"
+       inkscape:export-filename="logo_vaalea2.png"
+       inkscape:export-xdpi="94.539665"
+       inkscape:export-ydpi="94.539665"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.4728px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Ultra-Bold';letter-spacing:1.79904px;fill:#1a1a1a;fill-opacity:1;stroke-width:0.683286"
+         x="1.4158578"
+         y="53.66584">AK</tspan></text>
+  </g>
+</svg>

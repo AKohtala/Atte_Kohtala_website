@@ -1,1 +1,8 @@
 /* Add your own custom styles here */
+
+/* Pyöristää kaikki sivuston kuvat
+.content img {
+    border-radius: 50px;
+    height: auto;
+    max-width: 100%;
+} */

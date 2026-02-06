@@ -7,27 +7,27 @@
 @theme {
   /* === Colors === */
   --color-primary: #33711c;
-  --color-body: #fff;
+  --color-body: #F9F9F7;
   --color-border: #eaeaea;
   --color-light: #f6f6f6;
   --color-dark: #040404;
-  --color-text: #444444;
+  --color-text: #1A1A1A;
   --color-text-dark: #040404;
   --color-text-light: #717171;
 
   /* === Darkmode Colors === */
   --color-darkmode-primary: #33711c;
-  --color-darkmode-body: #1c1c1c;
+  --color-darkmode-body: #121212;
   --color-darkmode-border: #3E3E3E;
   --color-darkmode-light: #222222;
   --color-darkmode-dark: #fff;
-  --color-darkmode-text: #B4AFB6;
+  --color-darkmode-text: #E0E0E0;
   --color-darkmode-text-dark: #fff;
   --color-darkmode-text-light: #B4AFB6;
 
   /* === Font Families === */
-  --font-primary: Roboto, sans-serif;
-  --font-secondary: Roboto, sans-serif;
+  --font-primary: Inter, sans-serif;
+  --font-secondary: Lora, serif;
 
   /* === Font Sizes === */
   --text-base: 16px;

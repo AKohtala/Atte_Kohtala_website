@@ -3,7 +3,7 @@
 banner:
   title: "Atte Kohtala"
   content: "Pianisti ja valokuvaaja."
-  image: "/images/Taitelijakuva-2.png"
+  image: "/images/Taitelijakuva-2.jpg"
   button:
     enable: true
     label: "Ota yhteyttä!"

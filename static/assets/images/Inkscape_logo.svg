@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4702524"
-     inkscape:cx="515.21766"
-     inkscape:cy="145.89332"
+     inkscape:cx="272.40221"
+     inkscape:cy="88.080115"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -57,17 +57,17 @@
      inkscape:label="Taso 2">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.3857px;line-height:0;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:1.01192px;writing-mode:lr-tb;direction:ltr;fill:#ececec;stroke-width:0.738443;fill-opacity:1"
-       x="1.6545069"
-       y="54.930084"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:48.4728px;line-height:0;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:1.79904px;writing-mode:lr-tb;direction:ltr;fill:#1a1a1a;fill-opacity:1;stroke-width:0.683286"
+       x="1.4158578"
+       y="53.66584"
        id="text2"
-       inkscape:export-filename="static\assets\images\logo_tumma.png"
+       inkscape:export-filename="logo_vaalea2.png"
        inkscape:export-xdpi="94.539665"
        inkscape:export-ydpi="94.539665"><tspan
          sodipodi:role="line"
          id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.3857px;font-family:Signika;-inkscape-font-specification:'Signika Semi-Bold';letter-spacing:1.01192px;fill:#ececec;fill-opacity:1;stroke-width:0.738443"
-         x="1.6545069"
-         y="54.930084">Atte Kohtala</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.4728px;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Ultra-Bold';letter-spacing:1.79904px;fill:#1a1a1a;fill-opacity:1;stroke-width:0.683286"
+         x="1.4158578"
+         y="53.66584">AK</tspan></text>
   </g>
 </svg>
