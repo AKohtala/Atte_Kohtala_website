@@ -3,7 +3,7 @@
 banner:
   title: "Atte Kohtala"
   content: "Pianist and photographer."
-  image: "assets/images/taitelijakuva-2.png"
+  image: "assets/images/Taitelijakuva-2.png"
   button:
     enable: true
     label: "Contact!"
