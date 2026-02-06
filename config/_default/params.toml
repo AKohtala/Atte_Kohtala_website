@@ -1,15 +1,15 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = "assets/images/favicon.svg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
-logo_darkmode = "images/logo.png"
+logo = "assets/images/logo_vaalea.png"
+logo_darkmode = "assets/images/logo_tumma.png"
 # use `px` or `x` with logo_width, example: "100px".
-# Note: logo_width is not work with .svg file
+# Note: logo_width does not work with .svg file
 logo_width = "160px"
-logo_height = "32px"
+logo_height = "40px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
-logo_webp = true
+logo_webp = false
 # logo text will only show when logo is missing.
 logo_text = "Atte Kohtala"
 # navbar fixed to top
@@ -18,7 +18,7 @@ navbar_fixed = true
 theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+# mainSections = ["blog"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-# copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "© 2026 Atte Kohtala"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -37,9 +37,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "Github"
-link = "https://github.com/zeon-studio/hugoplate"
+enable = true
+label = "Instagram"
+link = "https://instagram.com/akohtala"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -51,13 +51,6 @@ show_image = true
 show_description = true
 show_tags = true
 show_categories = true
-
-# announcement
-# announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
-[announcement]
-enable = false
-expire_days = 7
-content = "<span class='text-center block'>♥️ Loving Hugoplate? <a class='underline' href='https://github.com/zeon-studio/hugoplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo

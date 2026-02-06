@@ -2,7 +2,7 @@
 title: "Pianist"
 meta_title: "Pianist"
 description: "this is meta description"
-image: "/images/Taitelijakuva-1.jpg"
+image: "/images/Taitelijakuva-1.png"
 layout: "about"
 draft: false
 ---

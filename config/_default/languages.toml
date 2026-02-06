@@ -1,14 +1,11 @@
 [languages]
-  # Suomenkielinen versio
   [languages.fi]
-    languageName = "Suomi"
+    languageName = "FI"
     contentDir = "content/finnish"
     languageCode = "fi-fi"
     weight = 1
-
-  # Englanninkielinen versio
   [languages.en]
-    languageName = "English"
+    languageName = "EN"
     contentDir = "content/english"
     languageCode = "en-us"
     weight = 2

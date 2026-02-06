@@ -1,0 +1,38 @@
+/* Gemini */
+
+
+.btn {
+  @apply inline-block border border-transparent px-5 py-2 font-semibold;
+ 
+  /* Asetetaan pohja-arvot valmiiksi */
+  border-radius: 4px;
+ 
+  /* MUUTOS: Käytetään 'ease-out' -käyrää ja lyhennetään viivettä.
+     Tämä alkaa nopeasti ja hidastuu loppua kohden (snappy start). */
+  transition: border-radius 0.4s ease-out,
+              background-color 0.2s ease-out,
+              transform 0.1s ease-out;
+ 
+  /* Optimointi: kertoo selaimelle mitä animoidaan */
+  will-change: border-radius;
+}
+
+.btn:hover {
+  /* Kuroutuu pilleriksi välittömästi */
+  border-radius: 50px;
+}
+
+.btn:active {
+  /* Klikatessa vaalenee ja painuu kasaan */
+  filter: brightness(1.2);
+  transform: scale(0.97);
+  transition: transform 0.05s ease-out; /* Klikkausvaste vieläkin nopeammaksi */
+}
+
+.btn-primary {
+  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
+}
+
+.btn-outline-primary {
+  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+}
