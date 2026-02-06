@@ -10,6 +10,11 @@ name = "Valokuvaaja"
 url = "/valokuvaus"
 weight = 2
 
+[[main]]
+name = "Yhteystiedot"
+url = "/yhteystiedot"
+weight = 2
+
 
 # footer menu
 [[footer]]
@@ -22,3 +27,7 @@ name = "Valokuvaaja"
 url = "/valokuvaus"
 weight = 2
 
+[[footer]]
+name = "Yhteystiedot"
+url = "/yhteystiedot"
+weight = 2

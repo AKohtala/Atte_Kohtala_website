@@ -13,9 +13,9 @@ Tarkemmin voit tutustua tuotantooni esimerkiksi [**Instagramissa**](https://www.
 [**Facebookissa**](https://www.facebook.com/attekohtalafinland).
 
 
-{{< figure src="/images/Revontulet2-36.jpg" caption="Revontulia Sallassa." alt="Revontulia Sallassa" >}}
+{{< figure src="/images/Revontulet2-36.jpg" caption="22.12.2025. Revontulia Sallassa." alt="Revontulia Sallassa" >}}
 
-{{< figure src="/images/Auringonlasku-7.jpg" caption="Auringonlasku Sallassa." alt="Auringonlasku Sallassa" >}}
+{{< figure src="/images/Auringonlasku-7.jpg" caption="22.12.2025. Auringonlasku Lapin tuntureilla." alt="Auringonlasku tunturissa" >}}
 
 {{< figure src="/images/IMG_0205-01.jpeg" caption="Poro." alt="Poro" >}}
 
