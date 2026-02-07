@@ -15,34 +15,34 @@ Atte has participated in Paavali Jumppanen's masterclasses at the Savonlinna Mus
 
 **2025**
 
-&emsp; **Piano Competition Città di San Donà di Piave** – 1. prize
+- **Piano Competition Città di San Donà di Piave** – 1. prize
 
-&emsp; **Nordic Junior Piano Competition** – a special prize for the best performance of modern repertoire
+- **Nordic Junior Piano Competition** – a special prize for the best performance of modern repertoire
 
-&emsp; **XIII Leevi Madetoja -pianokilpailu** – a finalist prize
+- **XIII Leevi Madetoja -pianokilpailu** – a finalist prize
 
-&emsp; **Mikkelin XI pianokatselmus** – a recognition prize
+- **Mikkelin XI pianokatselmus** – a recognition prize
 
 **2024**
 
-&emsp; **Kuopion X pianokilpailu** – 1. prize
+- **Kuopion X pianokilpailu** – 1. prize
 
 **2023**
 
-&emsp; **XXIV International Academic Music Competition Jūrmala 2023 for Piano** – 2. prize
+- **XXIV International Academic Music Competition Jūrmala 2023 for Piano** – 2. prize
 
 **2022**
 
-&emsp; **XII Leevi Madetoja -pianokilpailu** – a recognition prize and a special award of The Society of Finnish Composers
+- **XII Leevi Madetoja -pianokilpailu** – a recognition prize and a special award of The Society of Finnish Composers
 
-&emsp; **Mikkelin X pianokatselmus** – a recognition prize
+- **Mikkelin X pianokatselmus** – a recognition prize
 
-&emsp; **Suomen Kulttuurirahasto** – scholarship
+- **The Finnish Cultural Foundation** – scholarship
 
 **2021**
 
-&emsp; **Kuopion IX pianokilpailu** – 3. prize and a special prize for the best Bach interpretation in the series
+- **Kuopion IX pianokilpailu** – 3. prize and a special prize for the best Bach interpretation in the series
 
 **2018**
 
-&emsp; **Mikkelin IX pianokatselmus** – a recognition prize
+- **Mikkelin IX pianokatselmus** – a recognition prize
