@@ -1,0 +1,21 @@
+{{/* GEMINI */}}
+
+{{ $image := .Page.Resources.GetMatch (.Get "src") }}
+<figure style="margin-bottom: 2rem;">
+  {{ if $image }}
+    {{/* Muutetaan kuva WebP-muotoon ja rajoitetaan leveys 1200px (säästää tilaa!) */}}
+    {{ $optimized := $image.Process "resize 1200x webp q85" }}
+    <img 
+      src="{{ $optimized.RelPermalink }}" 
+      alt="{{ .Get "alt" }}" 
+      style="border-radius: 15px; width: 100%; height: auto;"
+      loading="lazy">
+  {{ else }}
+    {{/* Jos kuvaa ei löydy resurssina, käytetään alkuperäistä src:tä */}}
+    <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" style="border-radius: 15px; width: 100%;">
+  {{ end }}
+  
+  {{ with .Get "caption" }}
+    <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">{{ . }}</figcaption>
+  {{ end }}
+</figure>
