@@ -6,6 +6,7 @@ image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false
 translationKey: "photography"
+slug: "valokuvaus"
 ---
 
 Kuvaan monipuolisesti sekä luonto- että kaupunkiympäristöjä, urheilua ja ihmisiä.

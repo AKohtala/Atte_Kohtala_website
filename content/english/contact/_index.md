@@ -5,4 +5,5 @@ description: "Contact"
 layout: "contact"
 draft: false
 translationKey: "contact"
+slug: "contact"
 ---
