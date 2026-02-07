@@ -5,6 +5,7 @@ description: "this is meta description"
 image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false
+translationKey: "photography"
 ---
 
 I photograph versatilely both natural and urban 

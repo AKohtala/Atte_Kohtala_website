@@ -1,11 +1,14 @@
 ---
-title: "Pianist"
-meta_title: "Pianist"
-description: "this is meta description"
-image: "/images/Taitelijakuva-1.png"
-layout: "about"
+title: Pianist
+meta_title: Pianist
+description: this is meta description
+image: /images/Taitelijakuva-1.png
+layout: about
 draft: false
+translationKey: piano
+slug: Piano
 ---
+
 
 Atte Kohtala (born 2007) is a pianist from Savonlinna. He has been involved in a variety of music studies at the Savonlinna Music and Dance Institute since he was a baby. He specialized in piano since 2016 as a student of Anja Forsberg. He was accepted to [the Youth Piano Academy Finland](https://nuortenpianoakatemia.fi/en) in the summer of 2021 and from the autumn of the same year his teachers are Niklas Pokki and Kalla Luhtasela at the Savonlinna Music and Dance Institute.
 

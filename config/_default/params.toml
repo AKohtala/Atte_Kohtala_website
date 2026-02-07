@@ -1,6 +1,6 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "assets/images/favicon2.svg"
+favicon = "assets/images/favicon4.svg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "assets/images/logo_vaalea2.png"
 logo_darkmode = "assets/images/logo_tumma2.png"

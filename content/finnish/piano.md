@@ -5,6 +5,8 @@ description: "this is meta description"
 image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false
+translationKey: "piano"
+slug: "piano"
 ---
 
 Atte Kohtala (s. 2007) on savonlinnalainen pianisti. Hän on harrastanut Savonlinnan musiikki- ja tanssiopistossa vauvasta asti monipuolisesti musiikkia erikoistuen pianoon vuodesta 2016 Anja Forsbergin oppilaana. [Nuorten pianoakatemiaan](https://nuortenpianoakatemia.fi) hänet valittiin kesällä 2021 ja saman vuoden syksystä hänen opettajina ovat Niklas Pokki ja Savonlinnan musiikki- ja tanssiopiston Kalla Luhtasela.
