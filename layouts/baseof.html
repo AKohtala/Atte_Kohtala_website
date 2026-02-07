@@ -1,0 +1,91 @@
+<!doctype html>
+<html
+  itemscope
+  class="{{- if not site.Params.theme_switcher -}}
+    {{- site.Params.theme_default -}}
+  {{- end -}}"
+  lang="{{ site.LanguageCode | default `en-US` }}"
+  itemtype="http://schema.org/WebPage">
+  <head>
+    <!-- head (don't cache it) -->
+    {{ partial "essentials/head.html" . }}
+
+
+    <!-- style (always cache it) -->
+    {{ partialCached "essentials/style.html" . }}
+
+  </head>
+
+  
+
+
+  <body>
+
+    <script src="https://unpkg.com/swup@4"></script>
+
+<script>
+  const swup = new Swup({
+  animationSelector: '[class*="transition-"]',
+});
+
+  // Tämä suoritetaan HETI kun linkkiä klikataan
+  swup.hooks.on('visit:start', () => {
+    // 1. Suljetaan päävalikko
+    const navToggle = document.getElementById('nav-toggle');
+    if (navToggle) {
+      navToggle.checked = false;
+    }
+
+    // 2. Suljetaan kaikki avoimet alavalikot (ne checkboxit, joiden id alkaa "submenu-")
+    const submenus = document.querySelectorAll('input[type="checkbox"][id^="submenu-"]');
+    submenus.forEach(submenu => {
+      submenu.checked = false;
+    });
+  });
+
+  // Google Analyticsin päivitys (kuten aiemmin)
+  swup.hooks.on('page:view', () => {
+    if (typeof gtag === 'function') {
+      gtag('config', 'G-9W8FZZW9MJ', {
+        'page_path': window.location.pathname
+      });
+    }
+  });
+</script>
+
+
+
+    <!-- cache partial only in production -->
+    {{ if hugo.IsProduction }}
+      {{ partialCached "preloader.html" . }}
+      {{ partialCached "gtm-noscript.html" . }}
+    {{ else }}
+      {{ partial "preloader.html" . }}
+
+
+      <!-- tailwind size indicator -->
+      {{ partial "components/tw-size-indicator.html" . }}
+    {{ end }}
+
+
+    <!-- announcement -->
+    {{ partialCached "announcement.html" . }}
+
+
+    <!-- header (don't cache it) -->
+    {{ partial "essentials/header.html" . }}
+    {{ partial "search-modal.html" (dict "Context" . ) }}
+
+    <!-- Lisätty Geminin avulla: id="swup" class="transition-fade"  -->
+    <main id="swup" class="transition-fade">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- footer -->
+    {{ partial "essentials/footer.html" . }}
+
+
+    <!-- script (always cache it) -->
+    {{ partialCached "essentials/script.html" . }}
+  </body>
+</html>
