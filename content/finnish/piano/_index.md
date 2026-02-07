@@ -17,7 +17,7 @@ Atte on osallistunut Paavali Jumppasen mestarikursseille Savonlinnan Musiikkiaka
 
 - Piano Competition Città di San Donà di Piave – 1. palkinto
 
-- **Nordic Junior Piano Competition** – erikoispalkinto parhaan modernin teoksen tulkinnasta
+- **Nordic Junior Piano Competition** – erikoispalkinto parhaasta modernin teoksen tulkinnasta
 
 - **XIII Leevi Madetoja -pianokilpailu** – finalistipalkinto
 
