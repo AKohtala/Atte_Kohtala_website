@@ -5,4 +5,5 @@ description: "Yhteystiedot"
 layout: "contact"
 draft: false
 translationKey: "contact"
+slug: "yhteystiedot"
 ---

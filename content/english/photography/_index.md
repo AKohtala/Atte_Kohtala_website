@@ -6,6 +6,7 @@ image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false
 translationKey: "photography"
+slug: "photography"
 ---
 
 I photograph versatilely both natural and urban 
