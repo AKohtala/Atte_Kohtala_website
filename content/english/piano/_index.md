@@ -1,7 +1,7 @@
 ---
 title: "Pianist"
-meta_title: "Pianist"
-description: "this is meta description"
+meta_title: "Atte Kohtala – pianist"
+description: "Atte Kohtala is a pianst from Savonlinna, Finland."
 image: "/images/Taitelijakuva-1.png"
 layout: "about"
 draft: false
@@ -49,3 +49,5 @@ Atte has participated in Paavali Jumppanen's masterclasses at the Savonlinna Mus
 **2018**
 
 - **Mikkelin IX pianokatselmus** – a recognition prize
+
+{{< youtube hQnY3X8yk_Y >}}

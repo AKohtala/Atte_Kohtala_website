@@ -1,7 +1,7 @@
 ---
 title: "Photographer"
-meta_title: "Photographer"
-description: "this is meta description"
+meta_title: "Atte Kohtala – photographer"
+description: "Atte Kohtala is an amateur photographer."
 image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false
