@@ -1,7 +1,7 @@
 ---
 title: "Valokuvaaja"
-meta_title: "Valokuvaaja"
-description: "this is meta description"
+meta_title: "Atte Kohtala – valokuvaaja"
+description: "Atte Kohtala on harrastajavalokuvaaja."
 image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false

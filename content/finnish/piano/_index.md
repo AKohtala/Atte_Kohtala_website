@@ -1,7 +1,7 @@
 ---
 title: "Pianisti"
-meta_title: "Pianisti"
-description: "this is meta description"
+meta_title: "Atte Kohtala – pianisti"
+description: "Atte Kohtala on savonlinnalainen pianisti."
 image: "/images/Taitelijakuva-1.jpg"
 layout: "about"
 draft: false
@@ -48,3 +48,5 @@ Atte on osallistunut Paavali Jumppasen mestarikursseille Savonlinnan Musiikkiaka
 **2018**
 
 - **Mikkelin IX pianokatselmus** – tunnustuspalkinto
+
+{{< youtube hQnY3X8yk_Y >}}
