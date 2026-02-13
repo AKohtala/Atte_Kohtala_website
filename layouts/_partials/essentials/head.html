@@ -6,12 +6,25 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  // TÄRKEÄÄ: Tämä rivi pitää olla mukana, jotta GA aktivoituu oikein
-  gtag('config', 'G-1RK8ZD0Q5K', {
-      'anonymize_ip': true,
-      'cookie_flags': 'SameSite=None;Secure'
+// 1. Asetetaan oletustila (varmuuden vuoksi)
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': 500
   });
+
+  // 2. Päivitetään tila heti, koska tämä skripti ajetaan vain jos lupa on saatu
+  gtag('consent', 'update', {
+    'ad_storage': 'granted',
+    'analytics_storage': 'granted',
+    'ad_user_data': 'granted',
+    'ad_personalization': 'granted'
+  });
+
+  gtag('js', new Date());
+  gtag('config', 'G-1RK8ZD0Q5K', { 'anonymize_ip': true });
 </script>
 
 <!-- Teemaväri esim. Chromen yläpalkkiin -->
