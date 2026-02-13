@@ -21,42 +21,44 @@
 
   <body>
 
+    <script type="module" src="/static/cookieconsent-config.js"></script>
+
     <script src="https://unpkg.com/swup@4"></script>
 
-<script>
-  const swup = new Swup({
-    animationSelector: '[class*="transition-"]',
-  });
-
-  // Suoritetaan kun linkkiä klikataan (Gemini)
-  swup.hooks.on('visit:start', () => {
-    // 1. Suljetaan päävalikko
-    const navToggle = document.getElementById('nav-toggle');
-    if (navToggle) {
-      navToggle.checked = false;
-    }
-
-    // 2. Suljetaan alavalikot
-    const submenus = document.querySelectorAll('input[type="checkbox"][id^="submenu-"]');
-    submenus.forEach(submenu => {
-      submenu.checked = false;
-    });
-
-    // 3. KORJAUS: Pakotetaan focus pois, jotta mobiilinäppäimistö tai "haamualueet" katoavat
-    if (document.activeElement) {
-      document.activeElement.blur();
-    }
-  });
-
-  // Google Analyticsin päivitys
-  swup.hooks.on('page:view', () => {
-    if (typeof gtag === 'function') {
-      gtag('config', 'G-9W8FZZW9MJ', {
-        'page_path': window.location.pathname
+    <script>
+      const swup = new Swup({
+        animationSelector: '[class*="transition-"]',
       });
-    }
-  });
-</script>
+
+      // Suoritetaan kun linkkiä klikataan (Gemini)
+      swup.hooks.on('visit:start', () => {
+        // 1. Suljetaan päävalikko
+        const navToggle = document.getElementById('nav-toggle');
+        if (navToggle) {
+          navToggle.checked = false;
+        }
+
+        // 2. Suljetaan alavalikot
+        const submenus = document.querySelectorAll('input[type="checkbox"][id^="submenu-"]');
+        submenus.forEach(submenu => {
+          submenu.checked = false;
+        });
+
+        // 3. KORJAUS: Pakotetaan focus pois, jotta mobiilinäppäimistö tai "haamualueet" katoavat
+        if (document.activeElement) {
+          document.activeElement.blur();
+        }
+      });
+
+      // Google Analyticsin päivitys
+      swup.hooks.on('page:view', () => {
+        if (typeof gtag === 'function') {
+          gtag('config', 'G-9W8FZZW9MJ', {
+            'page_path': window.location.pathname
+          });
+        }
+      });
+    </script>
 
 
 
