@@ -31,6 +31,8 @@ html.is-animating .transition-fade {
   transform: translateY(10px); /* Pieni liike tekee siitä tyylikkään */
 }
 
+
+/* Tyylikkäät siirtymät alasivujen välillä (Gemini) */
 @media (max-width: 1023px) {
   #nav-menu {
     /* Muutetaan 'hidden' käyttäytymistä niin, että se sallii animaation */
@@ -38,14 +40,24 @@ html.is-animating .transition-fade {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
+    
+    /* LISÄTTY: Nämä kaksi riviä estävät haamuklikkaukset */
+    visibility: hidden;
+    pointer-events: none; 
+    
     transition: all 0.4s ease-in-out;
   }
 
   /* Kun checkbox on valittuna, valikko avautuu */
   #nav-toggle:checked ~ #nav-menu {
-    max-height: 100vh; /* Riittävän suuri luku */
+    max-height: 100vh;
     opacity: 1;
-    padding-bottom: 1.5rem; /* Palautetaan alkuperäinen padding */
+    
+    /* LISÄTTY: Palautetaan näkyvyys ja klikattavuus kun valikko on auki */
+    visibility: visible;
+    pointer-events: auto;
+    
+    padding-bottom: 1.5rem;
   }
 }
 
