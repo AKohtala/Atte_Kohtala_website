@@ -17,7 +17,7 @@ Atte on osallistunut Paavali Jumppasen mestarikursseille Savonlinnan Musiikkiaka
 
 **2025**
 
-- Piano Competition Città di San Donà di Piave – 1. palkinto
+- **Piano Competition Città di San Donà di Piave** – 1. palkinto
 
 - **Nordic Junior Piano Competition** – erikoispalkinto parhaasta modernin teoksen tulkinnasta
 
