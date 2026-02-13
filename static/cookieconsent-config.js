@@ -22,40 +22,47 @@ CookieConsent.run({
         necessary: {
             readOnly: true
         },
-        functionality: {}
+        analytics: {}
     },
     language: {
         default: "en",
-        autoDetect: "browser",
         translations: {
             en: {
                 consentModal: {
                     title: "Cookie Preferences",
-                    description: "We use cookies to improve your experience.",
+                    description: "",
+                    closeIconLabel: "",
                     acceptAllBtn: "Accept all",
-                    acceptNecessaryBtn: "Necessary only",
+                    acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage",
                     footer: "<a href=\"#link\">Privacy Policy</a>\n<a href=\"#link\">Terms and conditions</a>"
                 },
                 preferencesModal: {
-                    title: "Consent Preferences Center",
+                    title: "Manage Cookies",
+                    closeIconLabel: "Close",
                     acceptAllBtn: "Accept all",
-                    acceptNecessaryBtn: "Necessary only",
+                    acceptNecessaryBtn: "Reject all",
                     savePreferencesBtn: "Save preferences",
-                    closeIconLabel: "Close modal",
-                    serviceCounterLabel: "Service|Services",
+                    serviceCounterLabel: "",
                     sections: [
                         {
                             title: "Essential <span class=\"pm__badge\">Always Enabled</span>",
+                            description: "Only strictly necessary cookies.",
                             linkedCategory: "necessary"
                         },
                         {
                             title: "Analytics",
+                            description: "We use Google Analytics.",
                             linkedCategory: "analytics"
+                        },
+                        {
+                            title: "More information",
+                            description: "For any query in relation to my policy on cookies and your choices, please <a class=\"cc__link\" href=\"mailto:akohtalacontact@gmail.com\">contact me</a>."
                         }
                     ]
                 }
             }
-        }
+        },
+        autoDetect: "browser"
     }
 });
