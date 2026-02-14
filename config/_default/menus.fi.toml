@@ -30,4 +30,9 @@ weight = 2
 [[footer]]
 name = "Yhteystiedot"
 url = "/yhteystiedot"
-weight = 2
+weight = 3
+
+[[footer]]
+name = "Tietosuojaseloste"
+url = "/tietosuojaseloste"
+weight = 4
