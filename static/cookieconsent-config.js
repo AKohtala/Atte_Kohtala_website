@@ -1,7 +1,7 @@
 import '/js/cookieconsent.umd.js';
 
 // Enable dark mode
-document.documentElement.classList.add('cc--darkmode');
+// document.documentElement.classList.add('cc--darkmode');
 
 window.CookieConsent = CookieConsent;
 
@@ -42,7 +42,7 @@ CookieConsent.run({
             fi: {
                 consentModal: {
                     title: "Käytämme evästeitä",
-                    description: "",
+                    description: "Käytämme evästeitä parantaaksemme käyttökokemustasi ja analysoidaksemme sivuston liikennettä.",
                     closeIconLabel: "",
                     acceptAllBtn: "Hyväksy kaikki",
                     acceptNecessaryBtn: "Vain välttämättömät",
@@ -77,7 +77,7 @@ CookieConsent.run({
             en: {
                 consentModal: {
                     title: "Cookie Preferences",
-                    description: "",
+                    description: "We use cookies to improve your experience and analyze site traffic.",
                     closeIconLabel: "",
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
