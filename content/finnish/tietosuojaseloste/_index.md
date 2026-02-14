@@ -31,7 +31,7 @@ Henkilötietojen käsittely perustuu käyttäjän **suostumukseen**. Käyttäjä
 
 Voit muuttaa evästeasetuksiasi milloin tahansa.
 
-<button type="button" onclick="CookieConsent.showSettings()" style="background:none; border:none; color:blue; text-decoration:underline; cursor:pointer; padding:0;">Avaa evästeasetukset</button>
+{{< cookie_settings "Avaa evästeasetukset" >}}
 
 ### 4. Tietojen säilytysaika
 * **Tapahtumadata (Event data):** Säilytetään 2 kuukautta.
