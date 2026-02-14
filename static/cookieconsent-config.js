@@ -3,6 +3,8 @@ import '/js/cookieconsent.umd.js';
 // Enable dark mode
 document.documentElement.classList.add('cc--darkmode');
 
+window.CookieConsent = CookieConsent;
+
 CookieConsent.run({
     guiOptions: {
         consentModal: {
@@ -35,8 +37,43 @@ CookieConsent.run({
         }
     },
     language: {
-        default: "en",
+        default: "fi",
         translations: {
+            fi: {
+                consentModal: {
+                    title: "Käytämme evästeitä",
+                    description: "",
+                    closeIconLabel: "",
+                    acceptAllBtn: "Hyväksy kaikki",
+                    acceptNecessaryBtn: "Vain välttämättömät",
+                    showPreferencesBtn: "Hallitse asetuksia",
+                    footer: "<a href=\"/tietosuojaseloste\">Tietosuojaseloste</a>"
+                },
+                preferencesModal: {
+                    title: "Evästeasetukset",
+                    closeIconLabel: "Sulje",
+                    acceptAllBtn: "Hyväksy kaikki",
+                    acceptNecessaryBtn: "Vain välttämättömät",
+                    savePreferencesBtn: "Tallenna asetukset",
+                    serviceCounterLabel: "",
+                    sections: [
+                        {
+                            title: "Välttämättömät evästeet <span class=\"pm__badge\">Always Enabled</span>",
+                            description: "Vain ehdottomasti välttämättömät evästeet.",
+                            linkedCategory: "necessary"
+                        },
+                        {
+                            title: "Analytiikka",
+                            description: "Käytämme Google Analytics -palvelua.",
+                            linkedCategory: "analytics"
+                        },
+                        {
+                            title: "Lisätietoa",
+                            description: "Jos sinulla on kysyttävää evästeitä koskevasta käytännöstämme, <a class=\"cc__link\" href=\"mailto:akohtalacontact@gmail.com\">ota yhteyttä</a>."
+                        }
+                    ]
+                }
+            },
             en: {
                 consentModal: {
                     title: "Cookie Preferences",
@@ -45,7 +82,7 @@ CookieConsent.run({
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage",
-                    footer: "<a href=\"#link\">Privacy Policy</a>\n<a href=\"#link\">Terms and conditions</a>"
+                    footer: "<a href=\"/en/privacy_policy\">Privacy Policy</a>"
                 },
                 preferencesModal: {
                     title: "Manage Cookies",

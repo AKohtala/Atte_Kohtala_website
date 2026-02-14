@@ -31,7 +31,7 @@ The processing of personal data is based on the user's **consent**. The user can
 
 You can change your cookie settings at any time.
 
-<button type="button" onclick="CookieConsent.showSettings()" style="background:none; border:none; color:blue; text-decoration:underline; cursor:pointer; padding:0;">Open cookie settings</button>
+{{< cookie_settings "Open cookie settings" >}}
 
 ### 4. Data Retention Period
 * **Event data:** Stored for 2 months.
