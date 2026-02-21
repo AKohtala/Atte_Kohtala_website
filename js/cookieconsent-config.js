@@ -50,7 +50,7 @@ CookieConsent.run({
                     acceptAllBtn: "Hyväksy kaikki",
                     acceptNecessaryBtn: "Vain välttämättömät",
                     showPreferencesBtn: "Hallitse asetuksia",
-                    footer: "<a href=\"/tietosuojaseloste\">Tietosuojaseloste</a>"
+                    footer: "<a href=\"/tietosuojaseloste.html\">Tietosuojaseloste</a>"
                 },
                 preferencesModal: {
                     title: "Evästeasetukset",
@@ -85,7 +85,7 @@ CookieConsent.run({
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage",
-                    footer: "<a href=\"/en/privacy_policy\">Privacy Policy</a>"
+                    footer: "<a href=\"/en/privacypolicy\">Privacy Policy</a>"
                 },
                 preferencesModal: {
                     title: "Manage Cookies",

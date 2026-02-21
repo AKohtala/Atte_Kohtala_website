@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 img {
@@ -34,13 +34,12 @@ a {
 
 
 p {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .textlink {
     text-decoration: none;
-    font-weight: bold;
-    color: var(--text-color);
+    color: var(--primary-color);
     transition: 0.15s;
 }
 
@@ -72,7 +71,7 @@ li::marker {
 h1, h2, h3 {
   font-family: 'Lora', serif;
   font-weight: 700;
-  margin: 1rem 0;
+  margin: 1rem 0 0.4rem 0;
   color: var(--text-color);
 }
 
@@ -89,7 +88,7 @@ button {
     background-color: var(--primary-color);
     color: var(--text-light-color);
     padding: 1em 1.5em;
-    margin: 1.5rem 0.5rem 0 0;
+    margin: 0.75rem 0.5rem 0 0;
     cursor: pointer;
     border-radius: 12px;
     font-family: 'Inter', sans-serif;
@@ -125,6 +124,11 @@ button:active {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
+.error404h1 {
+    font-size: 150px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 
 
@@ -318,7 +322,9 @@ button:active {
     margin-top: 20px;
 }
 
-
+.error404-1 {
+    text-align: center;
+}
 
 
 /* Gemini */
