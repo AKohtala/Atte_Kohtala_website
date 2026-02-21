@@ -207,6 +207,7 @@ button:active {
     text-decoration: underline;
     color: var(--text-color);
     font-weight: bold;
+    padding: 8px 16px;
 }
 
 @media (max-width: 920px) {
@@ -312,8 +313,78 @@ button:active {
 
 .yt {
     width: 100%;
-    height: 600px;
+    height: 560px;
     border-radius: 18px;
     margin-top: 20px;
 }
 
+
+
+
+/* Gemini */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@700&display=swap');
+
+/* Kohdistetaan suoraan ID:hen, jotta ohitetaan kirjaston oletukset */
+#cc-main {
+    /* Fontit */
+    --cc-font-family: 'Inter', sans-serif;
+    
+    /* Taustat ja perusvärit */
+    --cc-bg: #121212 !important;                  
+    --cc-primary-color: #fff !important;          
+    --cc-secondary-color: #E0E0E0 !important;      
+    --cc-footer-bg: #222222 !important;           
+    --cc-separator-border-color: #3E3E3E !important; 
+
+    /* Painikkeet - Ensisijainen */
+    --cc-btn-primary-bg: #33711c !important;      
+    --cc-btn-primary-color: #fff !important;
+    --cc-btn-primary-border-color: #33711c !important;
+    --cc-btn-primary-hover-bg: #448a28 !important; 
+    --cc-btn-primary-hover-color: #fff !important;
+
+    /* Painikkeet - Toissijainen */
+    --cc-btn-secondary-bg: #222222 !important;    
+    --cc-btn-secondary-color: #E0E0E0 !important;
+    --cc-btn-secondary-border-color: #3E3E3E !important;
+    --cc-btn-secondary-hover-bg: #3E3E3E !important;
+    --cc-btn-secondary-hover-color: #fff !important;
+
+    /* Asetusikkunan lohkot */
+    --cc-cookie-category-block-bg: #222222 !important;
+    --cc-cookie-category-block-border: #3E3E3E !important;
+    --cc-cookie-category-block-hover-bg: #2a2a2a !important;
+    --cc-cookie-category-expanded-block-bg: #1a1a1a !important;
+    
+    /* Toggle-kytkimet */
+    --cc-toggle-on-bg: #33711c !important;
+    --cc-toggle-off-bg: #555555 !important;
+    --cc-toggle-on-knob-bg: #fff !important;
+    --cc-toggle-readonly-bg: #3E3E3E !important;
+}
+
+/* Otsikoiden tyyli (Lora-fontti) */
+#cc-main .cm__title, 
+#cc-main .pm__title {
+    font-family: 'Lora', serif !important;
+    color: #fff !important;
+}
+
+/* Tekstien värit ja luettavuus */
+#cc-main .cm__desc, 
+#cc-main .pm__section-desc {
+    color: #B4AFB6 !important;
+}
+
+/* Linkit */
+#cc-main .cc__link, 
+#cc-main a {
+    color: #33711c !important;
+}
+
+/* Varmistetaan, että overlay (taustan pimennys) toimii */
+#cc-main .cm-wrapper:before {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
