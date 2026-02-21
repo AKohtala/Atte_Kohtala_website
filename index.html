@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="fi">
     <head>
+        <script>
+            // Define dataLayer and the gtag function.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+
+            // Set default consent to 'denied' as a placeholder
+            // Determine actual values based on your own requirements
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied'
+            });
+        </script>
+
+        <!-- Google tag (gtag.js) -->
+        <script type="text/plain" data-category="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-4WF2NGJDJ9"></script>
+
+        <!-- Create one update function for each consent parameter -->
+        <script type="text/plain" data-category="analytics">
+            gtag('js', new Date());
+            gtag('config', 'G-4WF2NGJDJ9');
+
+            gtag('consent', 'update', {
+                'analytics_storage': 'granted'
+            });
+        </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Atte Kohtala – pianisti ja valokuvaaja">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="css/style.css">
         <title>Atte Kohtala</title>
         <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
         <!-- Apple Touch Icon? 
         <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:wght@700;600&display=swap" rel="stylesheet">
+        <meta name="theme-color" content="#33711c">
+        <link rel="alternate" hreflang="fi" href="https_//aten.kohdan.net/"/>
+        <link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/"/>
+        <link rel="stylesheet" href="css/cookieconsent.css">
+        <link rel="stylesheet" href="css/custom-cookieconsent.css">
     </head>
     <body>
+        <script type="module" src="js/cookieconsent-config.js"></script>
+
+        <!--  <button onclick="consentGrantedAnalyticsStorage">Yes</button> -->
 
         <header>
             <div class="header">
@@ -22,10 +58,8 @@
                     <a class="anav" href="piano.html">Piano</a>
                     <a class="anav" href="valokuvaus.html">Valokuvaus</a>
                     <a class="anav" href="yhteystiedot.html">Yhteystiedot</a>
+                    <a class="language-switcher" href="en/index.html">EN</a>
                 </nav>
-                <form action="https://www.instagram.com/akohtala" target="_blank">
-                    <button type="submit" class="button-header">Instagram</button>
-                </form>
             </div>
         </header>
 
@@ -35,15 +69,30 @@
                     <h1>Atte Kohtala</h1>
                     <p>Pianisti ja valokuvaaja.</p>
                     <a href="piano.html">
-                        <button type="submit">Piano</button>
+                        <button>Piano</button>
                     </a>
-                    <a href="valokuvaus.html"></form>
-                        <button type="submit">Valokuvaus</button>
+                    <a href="valokuvaus.html">
+                        <button>Valokuvaus</button>
                     </a>
+
+                    <div class="links">
+                    <a href="https://www.instagram.com/akohtala/" target="_blank">
+                        <img class="socialmedialink" src="assets/images/social/Instagram.webp" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/attekohtalafinland/" target="_blank">
+                        <img class="socialmedialink" src="assets/images/social/Facebook.webp" alt="Facebook">
+                    </a>
+                    <a href="https://bsky.app/profile/aten.kohdan.net/" target="_blank">
+                        <img class="socialmedialink" src="assets/images/social/Bluesky.svg" alt="Bluesky">
+                    </a>
+                    <a href="https://www.github.com/akohtala/" target="_blank">
+                        <img class="socialmedialink" src="assets/images/social/Github.svg" alt="Github">
+                    </a>
+                </div>
                 </section>
                 
                 <div class="image-home-1">
-                    <img src="assets/images/Taitelijakuva-2.jpg" alt="Atte Kohtala">
+                    <img loading="lazy" src="assets/images/Taitelijakuva-2.webp" alt="Atte Kohtala">
                 </div>
             </div>
         </main>
