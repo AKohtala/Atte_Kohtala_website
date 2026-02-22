@@ -2,12 +2,16 @@
 <html lang="fi">
 <html prefix="og: https://ogp.me/ns/website#"></html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Atte Kohtala – pianisti ja valokuvaaja">
+    <title>Atte Kohtala</title>
     <script>
       (function() {
             if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
                 return;
             }
-            const isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
+            const isBot = /bot|googlebot|crawler|spider|robot|crawling|lighthouse|pagespeed/i.test(navigator.userAgent);
             if (isBot) return;
 
             const userLang = navigator.language || navigator.userLanguage; 
@@ -45,10 +49,6 @@
           'analytics_storage': 'granted'
       });
     </script>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Atte Kohtala – pianisti ja valokuvaaja">
-      <title>Atte Kohtala</title>
       <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
       <!-- Apple Touch Icon? 
       <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png"> -->
