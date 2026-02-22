@@ -40,43 +40,9 @@ CookieConsent.run({
         }
     },
     language: {
-        default: "fi",
+        default: "en",
+        autoDetect: "document",
         translations: {
-            fi: {
-                consentModal: {
-                    title: "Käytämme evästeitä",
-                    description: "Käytämme evästeitä parantaaksemme käyttökokemustasi ja analysoidaksemme sivuston liikennettä.",
-                    closeIconLabel: "",
-                    acceptAllBtn: "Hyväksy kaikki",
-                    acceptNecessaryBtn: "Vain välttämättömät",
-                    showPreferencesBtn: "Hallitse asetuksia",
-                    footer: "<a href=\"/tietosuojaseloste.html\">Tietosuojaseloste</a>"
-                },
-                preferencesModal: {
-                    title: "Evästeasetukset",
-                    closeIconLabel: "Sulje",
-                    acceptAllBtn: "Hyväksy kaikki",
-                    acceptNecessaryBtn: "Vain välttämättömät",
-                    savePreferencesBtn: "Tallenna asetukset",
-                    serviceCounterLabel: "",
-                    sections: [
-                        {
-                            title: "Välttämättömät evästeet <span class=\"pm__badge\">Always Enabled</span>",
-                            description: "Vain ehdottomasti välttämättömät evästeet.",
-                            linkedCategory: "necessary"
-                        },
-                        {
-                            title: "Analytiikka",
-                            description: "Käytämme Google Analytics -palvelua.",
-                            linkedCategory: "analytics"
-                        },
-                        {
-                            title: "Lisätietoa",
-                            description: "Jos sinulla on kysyttävää evästeitä koskevasta käytännöstämme, <a class=\"cc__link\" href=\"mailto:akohtalacontact@gmail.com\">ota yhteyttä</a>."
-                        }
-                    ]
-                }
-            },
             en: {
                 consentModal: {
                     title: "Cookie Preferences",
@@ -85,7 +51,7 @@ CookieConsent.run({
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage",
-                    footer: "<a href=\"/en/privacypolicy\">Privacy Policy</a>"
+                    footer: "<a href=\"/en/privacypolicy/\">Privacy Policy</a>"
                 },
                 preferencesModal: {
                     title: "Manage Cookies",
@@ -111,8 +77,42 @@ CookieConsent.run({
                         }
                     ]
                 }
+            },
+            fi: {
+                consentModal: {
+                    title: "Käytämme evästeitä",
+                    description: "Käytämme evästeitä parantaaksemme käyttökokemustasi ja analysoidaksemme sivuston liikennettä.",
+                    closeIconLabel: "",
+                    acceptAllBtn: "Hyväksy kaikki",
+                    acceptNecessaryBtn: "Vain välttämättömät",
+                    showPreferencesBtn: "Hallitse asetuksia",
+                    footer: "<a href=\"/tietosuojaseloste/\">Tietosuojaseloste</a>"
+                },
+                preferencesModal: {
+                    title: "Evästeasetukset",
+                    closeIconLabel: "Sulje",
+                    acceptAllBtn: "Hyväksy kaikki",
+                    acceptNecessaryBtn: "Vain välttämättömät",
+                    savePreferencesBtn: "Tallenna asetukset",
+                    serviceCounterLabel: "",
+                    sections: [
+                        {
+                            title: "Välttämättömät evästeet <span class=\"pm__badge\">Always Enabled</span>",
+                            description: "Vain ehdottomasti välttämättömät evästeet.",
+                            linkedCategory: "necessary"
+                        },
+                        {
+                            title: "Analytiikka",
+                            description: "Käytämme Google Analytics -palvelua.",
+                            linkedCategory: "analytics"
+                        },
+                        {
+                            title: "Lisätietoa",
+                            description: "Jos sinulla on kysyttävää evästeitä koskevasta käytännöstämme, <a class=\"cc__link\" href=\"mailto:akohtalacontact@gmail.com\">ota yhteyttä</a>."
+                        }
+                    ]
+                }
             }
-        },
-        autoDetect: "browser"
+        }
     }
 });

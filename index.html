@@ -3,6 +3,22 @@
 <html prefix="og: https://ogp.me/ns/website#"></html>
     <head>
         <script>
+            (function() {
+                if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
+                    return;
+                }
+
+                const userLang = navigator.language || navigator.userLanguage; 
+                
+                if (!userLang.startsWith('fi')) {
+                    sessionStorage.setItem('language_redirected', 'true');
+                    window.location.href = '/en/';
+                } else {
+                    sessionStorage.setItem('language_redirected', 'true');
+                }
+            })();
+        </script>
+        <script>
             // Define dataLayer and the gtag function.
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -105,8 +121,8 @@
             <div class="footer">
                 <a href="/" class="logo-footer">Atte Kohtala</a>
                 <p class="mid-footer">
-                    <a class="anav" href="../yhteystiedot/">Yhteystiedot</a>
-                    <a class="anav" href="../tietosuojaseloste/">Tietosuojaseloste</a>
+                    <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
+                    <a class="anav" href="/tietosuojaseloste/">Tietosuojaseloste</a>
                 </p>
                 <p class="copyright">
                     &copy; 2026 Atte Kohtala
@@ -114,6 +130,6 @@
             </div>
         </footer>
 
-        <script type="module" src="js/cookieconsent-config.js"></script>
+        <script type="module" src="/js/cookieconsent-config.js"></script>
     </body>
 </html>
