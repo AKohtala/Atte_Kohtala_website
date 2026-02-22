@@ -7,14 +7,14 @@
                 if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
                     return;
                 }
+                const isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
+                if (isBot) return;
 
                 const userLang = navigator.language || navigator.userLanguage; 
                 
                 if (!userLang.startsWith('fi')) {
                     sessionStorage.setItem('language_redirected', 'true');
                     window.location.href = '/en/';
-                } else {
-                    sessionStorage.setItem('language_redirected', 'true');
                 }
             })();
         </script>
