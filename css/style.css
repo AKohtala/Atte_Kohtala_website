@@ -1,396 +1,396 @@
 :root {
-    --primary-color: #33711c;
-    --bg-color: #F9F9F7;
-    --text-color: #1A1A1A;
-    --border-color: #D1D5DB;
-    --text-light-color: #F9F9F7;
-    --primary-font: Inter;  /* --- Inter:wght@400;600 (sans-serif) --- */
-    --secondary-font: Lora; /* --- Lora:wght@700 (serif) --- */
-    --light-grey: #F3F4F6;
+  --primary-color: #33711c;
+  --bg-color: #F9F9F7;
+  --text-color: #1A1A1A;
+  --border-color: #D1D5DB;
+  --text-light-color: #F9F9F7;
+  --primary-font: Inter;  /* --- Inter:wght@400;600 (sans-serif) --- */
+  --secondary-font: Lora; /* --- Lora:wght@700 (serif) --- */
+  --light-grey: #F3F4F6;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 
 .img-portfolio {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    margin: 2rem 0;
+max-width: 100%;
+height: auto;
+border-radius: 15px;
+margin: 2rem 0;
 }
 
 a {
-    text-decoration: none;
+text-decoration: none;
 }
 
 
 p {
-    margin-bottom: 1rem;
+margin-bottom: 1rem;
 }
 
 .textlink {
-    text-decoration: none;
-    color: var(--primary-color);
-    transition: 0.15s;
+text-decoration: none;
+color: var(--primary-color);
+transition: 0.15s;
 }
 
 .textlink:hover {
-    color: var(--primary-color)
+  color: var(--primary-color)
 }
 
 
 .text-link {
-    color: var(--text-color);
-    text-decoration: underline;
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 ul {
-    margin-left: 3rem;
-    list-style-type: disc;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-left: 3rem;
+  list-style-type: disc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 li {
-    line-height: 2.3;
+  line-height: 1.8;
 }
 
 li::marker {
-    color: var(--border-color);
+  color: var(--border-color);
 }
 
 h1, h2, h3 {
-  font-family: 'Lora', serif;
-  font-weight: 700;
-  margin: 1rem 0 0.2rem 0;
-  color: var(--text-color);
+font-family: 'Lora', serif;
+font-weight: 700;
+margin: 1rem 0 0.2rem 0;
+color: var(--text-color);
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
 
 button {
-    transition: 0.25s;
-    border: none;
-    background-color: var(--primary-color);
-    color: var(--text-light-color);
-    padding: 1em 1.5em;
-    margin: 0.75rem 0.5rem 0 0;
-    cursor: pointer;
-    border-radius: 12px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    display: inline-block;
-    width: 128px;
-    height: 50px;
+  transition: 0.25s;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+  padding: 1em 1.5em;
+  margin: 0.75rem 0.5rem 0 0;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 128px;
+  height: 50px;
 }
 
 button:hover {
-    opacity: 0.8;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 50px;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
 }
 
 button:active {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .socialmedialink {
-    border-radius: 12px;
-    border-style: solid;
-    border-color: var(--primary-color);
-    width: 20px;
-    height: 20px;
-    padding: 8px 8px;
-    margin-top: 1.1rem;
-    transition: 0.15s;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--primary-color);
+  width: 20px;
+  height: 20px;
+  padding: 8px 8px;
+  margin-top: 1.1rem;
+  transition: 0.15s;
 }
 
 .socialmedialink:hover {
-    opacity: 0.8;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .error404h1 {
-    font-size: 150px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  font-size: 150px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 
 
 .header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    border-bottom: 1px;
-    border-color: var(--border-color);
-    border-bottom-style: solid;
-    padding: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: var(--bg-color);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px;
+  border-color: var(--border-color);
+  border-bottom-style: solid;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--bg-color);
 }
 
 .mid-header {
-    align-items: center;
-    grid-area: mid-header;
-    display: flex;
-    justify-content: center;
-    flex: wrap;
+  align-items: center;
+  grid-area: mid-header;
+  display: flex;
+  justify-content: center;
+  flex: wrap;
 }
 
 .anav {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--text-color);
-    transition: 0.15s;
-    padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--text-color);
+  transition: 0.15s;
+  padding: 0.5rem 1rem;
 }
 
 .anav:hover {
-    color: var(--primary-color)
+  color: var(--primary-color)
 }
 
 .button-header {
-    transition: 0.25s;
-    border: none;
-    background-color: var(--primary-color);
-    color: var(--text-light-color);
-    padding: 1em 1.5em;
-    cursor: pointer;
-    max-width: 8rem;
-    border-radius: 15px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-weight: bold;
-    align-items: right;
+  transition: 0.25s;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+  padding: 1em 1.5em;
+  cursor: pointer;
+  max-width: 8rem;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  align-items: right;
 }
 
 .button-header:hover {
-    opacity: 0.8;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 50px;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
 }
 
 .button-header:active {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .logo {
-    grid-area: logo;
-    font-family: 'Lora', serif;
-    font-size: 2rem; /* --- Eli suhteessa oletusfonttikokoon (:root) --- */
-    color: var(--text-color);
-    transition: 0.15s;
-    text-decoration: none;
+  grid-area: logo;
+  font-family: 'Lora', serif;
+  font-size: 2rem; /* --- Eli suhteessa oletusfonttikokoon (:root) --- */
+  color: var(--text-color);
+  transition: 0.15s;
+  text-decoration: none;
 }
 
 .logo:hover {
-    cursor: pointer;
-    opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .language-switcher {
+  grid-area: language-switcher;
+  text-decoration: underline;
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+@media (max-width: 920px) {
+  .header {
+    display: grid;
+    grid-template-areas: 
+      "logo"
+      "mid-header";
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    grid-area: logo;
+    justify-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .mid-header {
+    grid-area: mid-header;
+    justify-self: center;
+  }
+
+  .language-switcher {
     grid-area: language-switcher;
     text-decoration: underline;
     color: var(--text-color);
     font-weight: bold;
-    padding: 8px 16px;
-}
-
-@media (max-width: 920px) {
-    .header {
-        display: grid;
-        grid-template-areas: 
-            "logo"
-            "mid-header";
-        grid-template-columns: 1fr;
-    }
-
-    .logo {
-        grid-area: logo;
-        justify-self: center;
-        font-size: 1.5rem;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-
-    .mid-header {
-        grid-area: mid-header;
-        justify-self: center;
-    }
-
-    .language-switcher {
-        grid-area: language-switcher;
-        text-decoration: underline;
-        color: var(--text-color);
-        font-weight: bold;
-    }
+  }
 }
 
 
 
 .footer {
-    grid-template-areas: 
-        "logo"
-        "mid-footer"
-        "copyright";
-    margin-top: 20px;
-    padding: 20px;
-    text-align: center;
-    background-color: var(--light-grey);
+  grid-template-areas: 
+    "logo"
+    "mid-footer"
+    "copyright";
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--light-grey);
 }
 
 .logo-footer {
-    font-family: 'Lora', serif;
-    font-size: 2rem;
-    color: var(--text-color);
-    transition: 0.15s;
-    text-decoration: none;
-    display: inline;
-    padding-bottom: 5px;
-    margin-bottom: 0;
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  color: var(--text-color);
+  transition: 0.15s;
+  text-decoration: none;
+  display: inline;
+  padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .logo-footer:hover {
-    cursor: pointer;
-    opacity: 0.8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .mid-footer {
-    padding: 0.7rem 0 0.8rem 0;
+  padding: 0.7rem 0 0.8rem 0;
 }
 
 .copyright {
-    margin-inline: auto;
+  margin-inline: auto;
 }
 
 
 
 .container {
-    max-width: 1000px;
-    margin-inline: auto;
-    padding: 20px 20px;
-    background-color: var(--bg-color);
+  max-width: 1000px;
+  margin-inline: auto;
+  padding: 20px 20px;
+  background-color: var(--bg-color);
 }
 
 .home-1 {
-    display: grid;
-    grid-template-areas: 
-        "text-home-1 image-home-1";
-    grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-areas: 
+    "text-home-1 image-home-1";
+  grid-template-columns: 1fr 2fr;
 }
 
 .text-home-1 {
-    grid-area: text-home-1;
-    margin: auto 0;
-    margin-right: 1rem;
+  grid-area: text-home-1;
+  margin: auto 0;
+  margin-right: 1rem;
 }
 
 
 @media (max-width: 920px) {
-    .home-1 {
-        display: grid;
-        grid-template-areas: 
-            "image-home-1"
-            "text-home-1";
-        gap: 20px;
-        grid-template-columns: 1fr;
-    }
+  .home-1 {
+    display: grid;
+    grid-template-areas: 
+      "image-home-1"
+      "text-home-1";
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
 }
 
 .contact-1 {
-    display: grid;
-    grid-template-areas: 
-        "text-contact-1 form-contact-1";
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-areas: 
+      "text-contact-1 form-contact-1";
+  grid-template-columns: 1fr 1fr;
 }
 
 .text-contact-1 {
-    grid-area: text-contact-1;
-    margin: auto 0;
-    margin-right: 1rem;
+  grid-area: text-contact-1;
+  margin: auto 0;
+  margin-right: 1rem;
 }
 
 .form-contact-1 {
-    grid-area: form-contact-1;
+  grid-area: form-contact-1;
 }
 
 .form {
-    display: grid;
-    grid-template-areas: 
-        "form-input"
-        "form-textarea"
-        "form-button";
-    grid-template-columns: 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-areas: 
+      "form-input"
+      "form-textarea"
+      "form-button";
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .form-input {
-    border-radius: 12px;
-    border-style: solid;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    display: inline-block;
-    width: 1fr;
-    height: 50px;
-    padding: 5px;
+  border-radius: 12px;
+  border-style: solid;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  width: 1fr;
+  height: 50px;
+  padding: 5px;
 }
 
 .form-input-message {
-    border-radius: 12px;
-    border-style: solid;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    display: inline-block;
-    width: 1fr;
-    height: 100px;
-    padding: 5px;
+  border-radius: 12px;
+  border-style: solid;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  width: 1fr;
+  height: 100px;
+  padding: 5px;
 }
 
 
 @media (max-width: 920px) {
-    .contact-1 {
-        display: grid;
-        grid-template-areas: 
-            "text-contact-1"
-            "form-contact-1";
-        gap: 20px;
-        grid-template-columns: 1fr;
-    }
-    .form-contact-1 {
-        grid-area: form-contact-1;
-    }
+  .contact-1 {
+    display: grid;
+    grid-template-areas: 
+      "text-contact-1"
+      "form-contact-1";
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .form-contact-1 {
+    grid-area: form-contact-1;
+  }
 
 }
 
 .yt {
-    width: 100%;
-    height: 560px;
-    border-radius: 18px;
-    margin-top: 20px;
+  width: 100%;
+  height: 560px;
+  border-radius: 18px;
+  margin-top: 20px;
 }
 
 .error404-1 {
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -401,63 +401,63 @@ button:active {
 
 /* Kohdistetaan suoraan ID:hen, jotta ohitetaan kirjaston oletukset */
 #cc-main {
-    /* Fontit */
-    --cc-font-family: 'Inter', sans-serif;
-    
-    /* Taustat ja perusvärit */
-    --cc-bg: #121212 !important;                  
-    --cc-primary-color: #fff !important;          
-    --cc-secondary-color: #E0E0E0 !important;      
-    --cc-footer-bg: #222222 !important;           
-    --cc-separator-border-color: #3E3E3E !important; 
+  /* Fontit */
+  --cc-font-family: 'Inter', sans-serif;
+  
+  /* Taustat ja perusvärit */
+  --cc-bg: #121212 !important;                  
+  --cc-primary-color: #fff !important;          
+  --cc-secondary-color: #E0E0E0 !important;      
+  --cc-footer-bg: #222222 !important;           
+  --cc-separator-border-color: #3E3E3E !important; 
 
-    /* Painikkeet - Ensisijainen */
-    --cc-btn-primary-bg: #33711c !important;      
-    --cc-btn-primary-color: #fff !important;
-    --cc-btn-primary-border-color: #33711c !important;
-    --cc-btn-primary-hover-bg: #448a28 !important; 
-    --cc-btn-primary-hover-color: #fff !important;
+  /* Painikkeet - Ensisijainen */
+  --cc-btn-primary-bg: #33711c !important;      
+  --cc-btn-primary-color: #fff !important;
+  --cc-btn-primary-border-color: #33711c !important;
+  --cc-btn-primary-hover-bg: #448a28 !important; 
+  --cc-btn-primary-hover-color: #fff !important;
 
-    /* Painikkeet - Toissijainen */
-    --cc-btn-secondary-bg: #222222 !important;    
-    --cc-btn-secondary-color: #E0E0E0 !important;
-    --cc-btn-secondary-border-color: #3E3E3E !important;
-    --cc-btn-secondary-hover-bg: #3E3E3E !important;
-    --cc-btn-secondary-hover-color: #fff !important;
+  /* Painikkeet - Toissijainen */
+  --cc-btn-secondary-bg: #222222 !important;    
+  --cc-btn-secondary-color: #E0E0E0 !important;
+  --cc-btn-secondary-border-color: #3E3E3E !important;
+  --cc-btn-secondary-hover-bg: #3E3E3E !important;
+  --cc-btn-secondary-hover-color: #fff !important;
 
-    /* Asetusikkunan lohkot */
-    --cc-cookie-category-block-bg: #222222 !important;
-    --cc-cookie-category-block-border: #3E3E3E !important;
-    --cc-cookie-category-block-hover-bg: #2a2a2a !important;
-    --cc-cookie-category-expanded-block-bg: #1a1a1a !important;
-    
-    /* Toggle-kytkimet */
-    --cc-toggle-on-bg: #33711c !important;
-    --cc-toggle-off-bg: #555555 !important;
-    --cc-toggle-on-knob-bg: #fff !important;
-    --cc-toggle-readonly-bg: #3E3E3E !important;
+  /* Asetusikkunan lohkot */
+  --cc-cookie-category-block-bg: #222222 !important;
+  --cc-cookie-category-block-border: #3E3E3E !important;
+  --cc-cookie-category-block-hover-bg: #2a2a2a !important;
+  --cc-cookie-category-expanded-block-bg: #1a1a1a !important;
+  
+  /* Toggle-kytkimet */
+  --cc-toggle-on-bg: #33711c !important;
+  --cc-toggle-off-bg: #555555 !important;
+  --cc-toggle-on-knob-bg: #fff !important;
+  --cc-toggle-readonly-bg: #3E3E3E !important;
 }
 
 /* Otsikoiden tyyli (Lora-fontti) */
 #cc-main .cm__title, 
 #cc-main .pm__title {
-    font-family: 'Lora', serif !important;
-    color: #fff !important;
+  font-family: 'Lora', serif !important;
+  color: #fff !important;
 }
 
 /* Tekstien värit ja luettavuus */
 #cc-main .cm__desc, 
 #cc-main .pm__section-desc {
-    color: #B4AFB6 !important;
+  color: #B4AFB6 !important;
 }
 
 /* Linkit */
 #cc-main .cc__link, 
 #cc-main a {
-    color: #33711c !important;
+  color: #33711c !important;
 }
 
 /* Varmistetaan, että overlay (taustan pimennys) toimii */
 #cc-main .cm-wrapper:before {
-    background: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }

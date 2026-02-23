@@ -8,18 +8,18 @@
     <title>Atte Kohtala</title>
     <script>
       (function() {
-            if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
-                return;
-            }
-            const isBot = /bot|googlebot|crawler|spider|robot|crawling|lighthouse|pagespeed/i.test(navigator.userAgent);
-            if (isBot) return;
+          if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
+              return;
+          }
+          const isBot = /bot|googlebot|crawler|spider|robot|crawling|lighthouse|pagespeed/i.test(navigator.userAgent);
+          if (isBot) return;
 
-            const userLang = navigator.language || navigator.userLanguage; 
-            
-            if (!userLang.startsWith('fi')) {
-                sessionStorage.setItem('language_redirected', 'true');
-                window.location.href = '/en/';
-            }
+          const userLang = navigator.language || navigator.userLanguage; 
+          
+          if (!userLang.startsWith('fi')) {
+              sessionStorage.setItem('language_redirected', 'true');
+              window.location.href = '/en/';
+          }
         })();
     </script>
     <script>
@@ -30,10 +30,10 @@
       // Set default consent to 'denied' as a placeholder
       // Determine actual values based on your own requirements
       gtag('consent', 'default', {
-          'ad_storage': 'denied',
-          'ad_user_data': 'denied',
-          'ad_personalization': 'denied',
-          'analytics_storage': 'denied'
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
       });
     </script>
 
@@ -46,7 +46,7 @@
       gtag('config', 'G-4WF2NGJDJ9');
 
       gtag('consent', 'update', {
-          'analytics_storage': 'granted'
+        'analytics_storage': 'granted'
       });
     </script>
       <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
@@ -64,7 +64,7 @@
       <link rel="preload" href="../css/style.css" as="style">
       <meta property="og:title" content="Atte Kohtala" />
       <meta property="og:description" 
-          content="Atte Kohtala on suomalainen pianisti ja valokuvaaja." />
+        content="Atte Kohtala on suomalainen pianisti ja valokuvaaja." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://aten.kohdan.net/" />
       <meta property="og:image" content="https://aten.kohdan.net/assets/images/og-image.jpg" />
