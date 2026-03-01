@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Lora';
+    src: url('/fonts/Lora-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+
 :root {
   --primary-color: #33711c;
   --bg-color: #F9F9F7;
@@ -22,25 +35,25 @@ img {
 }
 
 .img-portfolio {
-max-width: 100%;
-height: auto;
-border-radius: 15px;
-margin: 2rem 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin: 2rem 0;
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 
 p {
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .textlink {
-text-decoration: none;
-color: var(--primary-color);
-transition: 0.15s;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: 0.15s;
 }
 
 .textlink:hover {
@@ -70,7 +83,6 @@ li::marker {
 
 h1, h2, h3 {
 font-family: 'Lora', serif;
-font-weight: 700;
 margin: 1rem 0 0.2rem 0;
 color: var(--text-color);
 }
@@ -195,6 +207,7 @@ button:active {
 .logo {
   grid-area: logo;
   font-family: 'Lora', serif;
+  font-weight: 600;
   font-size: 2rem; /* --- Eli suhteessa oletusfonttikokoon (:root) --- */
   color: var(--text-color);
   transition: 0.15s;
@@ -259,6 +272,7 @@ button:active {
 
 .logo-footer {
   font-family: 'Lora', serif;
+  font-weight: 600;
   font-size: 2rem;
   color: var(--text-color);
   transition: 0.15s;
