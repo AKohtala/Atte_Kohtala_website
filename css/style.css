@@ -6,21 +6,9 @@
     font-display: swap;
 }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("/fonts/InterVariable.woff2") format("woff2"), url('/fonts/InterVariable.woff2') format('woff2-variations');;
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("/fonts/InterVariable-Italic.woff2") format("woff2"), url('/fonts/InterVariable-Italic.woff2') format('woff2-variations');;
-}
-
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/Inter-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url("/fonts/Inter-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("/fonts/Inter-Bold.woff2") format("woff2"); }
 
 :root {
   --primary-color: #33711c;
@@ -116,7 +104,7 @@ button {
   cursor: pointer;
   border-radius: 12px;
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   display: inline-block;
   width: 128px;
   height: 50px;
@@ -181,7 +169,7 @@ button:active {
 
 .anav {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--text-color);
   transition: 0.15s;
   padding: 0.5rem 1rem;
@@ -189,31 +177,6 @@ button:active {
 
 .anav:hover {
   color: var(--primary-color)
-}
-
-.button-header {
-  transition: 0.25s;
-  border: none;
-  background-color: var(--primary-color);
-  color: var(--text-light-color);
-  padding: 1em 1.5em;
-  cursor: pointer;
-  max-width: 8rem;
-  border-radius: 15px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-weight: bold;
-  align-items: right;
-}
-
-.button-header:hover {
-  opacity: 0.8;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 50px;
-}
-
-.button-header:active {
-  opacity: 0.7;
 }
 
 .logo {
@@ -235,7 +198,7 @@ button:active {
   grid-area: language-switcher;
   text-decoration: underline;
   color: var(--text-color);
-  font-weight: bold;
+  font-weight: 700;
   padding: 8px 16px;
 }
 
@@ -265,7 +228,7 @@ button:active {
     grid-area: language-switcher;
     text-decoration: underline;
     color: var(--text-color);
-    font-weight: bold;
+    font-weight: 700;
   }
 }
 
@@ -372,7 +335,7 @@ button:active {
   border-radius: 12px;
   border-style: solid;
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1rem;
   display: inline-block;
   width: 1fr;
@@ -384,7 +347,7 @@ button:active {
   border-radius: 12px;
   border-style: solid;
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1rem;
   display: inline-block;
   width: 1fr;
