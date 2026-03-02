@@ -1,63 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://aten.kohdan.net/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/" />
     <lastmod>2026-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/piano</loc>
+    <loc>https://aten.kohdan.net/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/" />
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://aten.kohdan.net/piano/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/piano/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/piano/" />
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/valokuvaus</loc>
+    <loc>https://aten.kohdan.net/en/piano/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/piano/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/piano/" />
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://aten.kohdan.net/valokuvaus/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/valokuvaus/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/photography/" />
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/yhteystiedot</loc>
+    <loc>https://aten.kohdan.net/en/photography/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/valokuvaus/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/photography/" />
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://aten.kohdan.net/yhteystiedot/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/yhteystiedot/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/contact/" />
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/en</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aten.kohdan.net/tietosuojaseloste</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aten.kohdan.net/en/piano</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://aten.kohdan.net/en/photography</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://aten.kohdan.net/en/contact</loc>
+    <loc>https://aten.kohdan.net/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/yhteystiedot/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/contact/" />
     <lastmod>2026-03-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.6</priority>
   </url>
+
   <url>
-    <loc>https://aten.kohdan.net/en/privacypolicy</loc>
+    <loc>https://aten.kohdan.net/tietosuojaseloste/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/tietosuojaseloste/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/privacypolicy/" />
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://aten.kohdan.net/en/privacypolicy/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/tietosuojaseloste/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/privacypolicy/" />
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

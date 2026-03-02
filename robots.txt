@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://aten.kohdan.net/sitemap.xml
