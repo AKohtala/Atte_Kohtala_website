@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
@@ -23,7 +23,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/piano/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/piano/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -31,7 +31,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/piano/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/piano/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
@@ -40,7 +40,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/valokuvaus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/photography/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -48,7 +48,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/valokuvaus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/photography/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
@@ -57,7 +57,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/yhteystiedot/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/contact/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -74,7 +74,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/tietosuojaseloste/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/privacypolicy/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -82,7 +82,7 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/tietosuojaseloste/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/privacypolicy/" />
     <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
