@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
 <url>
-  <loc>http://aten.kohdan.net/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/../piano/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/piano/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/../valokuvaus/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/valokuvaus/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/../yhteystiedot/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/yhteystiedot/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/en/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/en/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/yhteystiedot/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/tietosuojaseloste/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/tietosuojaseloste/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/en/piano/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/piano/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/en/photography/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/valokuvaus/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/en/contact/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://aten.kohdan.net/en/piano/</loc>
-  <lastmod>2026-02-22</lastmod>
-</url>
-<url>
-  <loc>http://aten.kohdan.net/en/photography/</loc>
-  <lastmod>2026-02-22</lastmod>
-</url>
-<url>
-  <loc>http://aten.kohdan.net/en/contact/</loc>
-  <lastmod>2026-02-22</lastmod>
-</url>
-<url>
-  <loc>http://aten.kohdan.net/en/privacypolicy/</loc>
-  <lastmod>2026-02-22</lastmod>
+<loc>https://aten.kohdan.net/en/privacypolicy/</loc>
+<lastmod>2026-03-02T22:45:27+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 </urlset>
