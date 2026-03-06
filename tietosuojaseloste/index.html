@@ -47,12 +47,12 @@
 
   <header>
     <div class="header">
-      <a href="/" class="logo">Atte Kohtala</a>
+      <a href="/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
       <nav class="mid-header">
-        <a class="anav" href="/piano/">Piano</a>
-        <a class="anav" href="/valokuvaus/">Valokuvaus</a>
-        <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
-        <a class="language-switcher" href="/en/privacypolicy/">EN</a>
+        <a class="anav" data-simple-event="to_piano_from_header" href="/piano/">Piano</a>
+        <a class="anav" data-simple-event="to_photography_from_header" href="/valokuvaus/">Valokuvaus</a>
+        <a class="anav" data-simple-event="to_contact_from_header" href="/yhteystiedot/">Yhteystiedot</a>
+        <a class="language-switcher" data-simple-event="manual_language_switch" href="/en/privacypolicy/">EN</a>
       </nav>
     </div>
   </header>
@@ -62,7 +62,7 @@
       <h1>Tietosuojaseloste</h1>
       <h2>1. Rekisterinpitäjä</h2>
         <p><strong>Nimi:</strong> Atte Kohtala</p>
-        <p><strong>Sähköposti:</strong> <a class="textlink" href="mailto:akohtalacontact@gmail.com" target="_blank">akohtalacontact@gmail.com</a></p>
+        <p><strong>Sähköposti:</strong> <a class="textlink" data-simple-event="mailto_click" href="mailto:akohtalacontact@gmail.com" target="_blank">akohtalacontact@gmail.com</a></p>
       <h2>2. Mitä tietoja keräämme ja miksi?</h2>
         <p>Keräämme sivustolla vierailevien asiakkaiden tietoja.</p>
         <p>Käytämme sivustollamme Google Analytics (GA4) -palvelua kävijätilastojen analysointiin. Kerättyjä tietoja käytetään lähinnä tilastollisiin tarkoituksiin.</p>
@@ -93,10 +93,9 @@
   
   <footer>
     <div class="footer">
-      <a href="/" class="logo-footer">Atte Kohtala</a>
+      <a href="/" data-simple-event="to_home_from_footer" class="logo-footer">Atte Kohtala</a>
       <p class="mid-footer">
-        <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
-        <a class="anav" href="/tietosuojaseloste/">Tietosuojaseloste</a>
+        <a class="anav" data-simple-event="to_contact_from_footer" href="/yhteystiedot/">Yhteystiedot</a>
       </p>
       <p class="copyright">
         &copy; 2026 Atte Kohtala
@@ -104,8 +103,8 @@
     </div>
   </footer>
 
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  <script async src="https://scripts.simpleanalyticscdn.com/inline-events.js"></script>
 </body>
 </html>

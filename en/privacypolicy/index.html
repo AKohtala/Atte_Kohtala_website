@@ -46,12 +46,12 @@
 
   <header>
     <div class="header">
-      <a href="/en/" class="logo">Atte Kohtala</a>
+      <a href="/en/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
       <nav class="mid-header">
-        <a class="anav" href="/en/piano/">Piano</a>
-        <a class="anav" href="/en/photography/">Photography</a>
-        <a class="anav" href="/en/contact/">Contact</a>
-        <a class="language-switcher" href="/tietosuojaseloste/">FI</a>
+        <a class="anav" data-simple-event="to_piano_from_header" href="/en/piano/">Piano</a>
+        <a class="anav" data-simple-event="to_photography_from_header" href="/en/photography/">Photography</a>
+        <a class="anav" data-simple-event="to_contact_from_header" href="/en/contact/">Contact</a>
+        <a class="language-switcher" data-simple-event="manual_language_switch" href="/tietosuojaseloste/">FI</a>
       </nav>
     </div>
   </header>
@@ -61,7 +61,7 @@
       <h1>Privacy Policy</h1>
       <h2>1. Data Controller</h2>
         <p><strong>Name:</strong> Atte Kohtala</p>
-        <p><strong>E-mail address:</strong> <a class="textlink" href="mailto:akohtalacontact@gmail.com" target="_blank">akohtalacontact@gmail.com</a></p>
+        <p><strong>E-mail address:</strong> <a class="textlink" data-simple-event="mailto_click" href="mailto:akohtalacontact@gmail.com" target="_blank">akohtalacontact@gmail.com</a></p>
       <h2>2. What Information Do We Collect and Why?</h2>
         <p>We collect information about customers who visit our website.</p>
         <p>We use Google Analytics (GA4) on our website to analyze visitor statistics. The information collected is mainly used for statistical purposes.</p>
@@ -92,10 +92,9 @@
   
   <footer>
     <div class="footer">
-      <a href="/en/" class="logo-footer">Atte Kohtala</a>
+      <a href="/en/" data-simple-event="to_home_from_footer" class="logo-footer">Atte Kohtala</a>
       <p class="mid-footer">
-        <a class="anav" href="/en/contact/">Contact</a>
-        <a class="anav" href="/en/privacypolicy/">Privacy Policy</a>
+        <a class="anav" data-simple-event="to_contact_from_footer" href="/en/contact/">Contact</a>
       </p>
       <p class="copyright">
         &copy; 2026 Atte Kohtala
@@ -103,8 +102,8 @@
     </div>
   </footer>
 
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  <script async src="https://scripts.simpleanalyticscdn.com/inline-events.js"></script>
 </body>
 </html>

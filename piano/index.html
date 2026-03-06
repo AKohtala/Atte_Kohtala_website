@@ -47,12 +47,12 @@
 
   <header>
     <div class="header">
-      <a href="/" class="logo">Atte Kohtala</a>
+      <a href="/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
       <nav class="mid-header">
-        <a class="anav" href="/piano/">Piano</a>
-        <a class="anav" href="/valokuvaus/">Valokuvaus</a>
-        <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
-        <a class="language-switcher" href="/en/piano/">EN</a>
+        <a class="anav" data-simple-event="to_piano_from_header" href="/piano/">Piano</a>
+        <a class="anav" data-simple-event="to_photography_from_header" href="/valokuvaus/">Valokuvaus</a>
+        <a class="anav" data-simple-event="to_contact_from_header" href="/yhteystiedot/">Yhteystiedot</a>
+        <a class="language-switcher" data-simple-event="manual_language_switch" href="/en/piano/">EN</a>
       </nav>
     </div>
   </header>
@@ -65,7 +65,7 @@
 
       <section>
         <h1>Pianisti</h1>
-        <p>Atte Kohtala (s. 2007) on savonlinnalainen pianisti. Hän on harrastanut Savonlinnan musiikki- ja tanssiopistossa vauvasta asti monipuolisesti musiikkia erikoistuen pianoon vuodesta 2016 Anja Forsbergin oppilaana. <a href="https://nuortenpianoakatemia.fi/" target="_blank" class="text-link">Nuorten pianoakatemiaan</a> hänet valittiin kesällä 2021 ja saman vuoden syksystä hänen opettajina ovat Niklas Pokki ja Savonlinnan musiikki- ja tanssiopiston Kalla Luhtasela.</p>
+        <p>Atte Kohtala (s. 2007) on savonlinnalainen pianisti. Hän on harrastanut Savonlinnan musiikki- ja tanssiopistossa vauvasta asti monipuolisesti musiikkia erikoistuen pianoon vuodesta 2016 Anja Forsbergin oppilaana. <a data-simple-event="NPA_click" href="https://nuortenpianoakatemia.fi/" target="_blank" class="text-link">Nuorten pianoakatemiaan</a> hänet valittiin kesällä 2021 ja saman vuoden syksystä hänen opettajina ovat Niklas Pokki ja Savonlinnan musiikki- ja tanssiopiston Kalla Luhtasela.</p>
         <p>Atte on osallistunut Paavali Jumppasen mestarikursseille Savonlinnan Musiikkiakatemiassa kuutena vuotena, ja on käynyt hänen kursseillaan Savonlinnan musiikki- ja tanssiopistossa myös keväisin 2017 alkaen. Peruskoulussa Atte oli musiikkipainotteisella luokalla, ja hän opiskelee nykyään musiikkilukiossa.</p>
         <h2>Palkintoja ja tunnustuksia</h2>
         <h3>2025</h3>
@@ -106,20 +106,19 @@
   </main>
   
   <footer>
-      <div class="footer">
-          <a href="/" class="logo-footer">Atte Kohtala</a>
-          <p class="mid-footer">
-              <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
-              <a class="anav" href="/tietosuojaseloste/">Tietosuojaseloste</a>
-          </p>
-          <p class="copyright">
-              &copy; 2026 Atte Kohtala
-          </p>
-      </div>
+    <div class="footer">
+      <a href="/" data-simple-event="to_home_from_footer" class="logo-footer">Atte Kohtala</a>
+      <p class="mid-footer">
+        <a class="anav" data-simple-event="to_contact_from_footer" href="/yhteystiedot/">Yhteystiedot</a>
+      </p>
+      <p class="copyright">
+        &copy; 2026 Atte Kohtala
+      </p>
+    </div>
   </footer>
 
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  <script async src="https://scripts.simpleanalyticscdn.com/inline-events.js"></script>
 </body>
 </html>

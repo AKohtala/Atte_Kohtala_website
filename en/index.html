@@ -48,12 +48,12 @@
 
   <header>
     <div class="header">
-      <a href="/en/" class="logo">Atte Kohtala</a>
+      <a href="/en/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
       <nav class="mid-header">
-        <a class="anav" href="/en/piano/">Piano</a>
-        <a class="anav" href="/en/photography/">Photography</a>
-        <a class="anav" href="/en/contact/">Contact</a>
-        <a class="language-switcher" href="/">FI</a>
+        <a class="anav" data-simple-event="to_piano_from_header" href="/en/piano/">Piano</a>
+        <a class="anav" data-simple-event="to_photography_from_header" href="/en/photography/">Photography</a>
+        <a class="anav" data-simple-event="to_contact_from_header" href="/en/contact/">Contact</a>
+        <a class="language-switcher" data-simple-event="manual_language_switch" href="/">FI</a>
       </nav>
     </div>
   </header>
@@ -63,24 +63,24 @@
       <section class="text-home-1">
         <h1>Atte Kohtala</h1>
         <p>Pianist and photographer.</p>
-        <a class="nappi" href="/en/piano/">
+        <a class="nappi" data-simple-event="piano_button" href="/en/piano/">
           Piano
         </a>
-        <a class="nappi" href="/en/photography/">
+        <a class="nappi" data-simple-event="photography_button" href="/en/photography/">
           Photography
         </a>
 
         <div class="links">
-          <a class="socialmedialink" href="https://www.instagram.com/akohtala/" target="_blank">
+          <a class="socialmedialink" data-simple-event="IG_click" href="https://www.instagram.com/akohtala/" target="_blank">
             <img class="socialimg" src="/assets/images/social/Instagram.webp" alt="Instagram">
           </a>
-          <a class="socialmedialink" href="https://www.facebook.com/attekohtalafinland/" target="_blank">
+          <a class="socialmedialink" data-simple-event="FB_click" href="https://www.facebook.com/attekohtalafinland/" target="_blank">
             <img class="socialimg" src="/assets/images/social/Facebook.webp" alt="Facebook">
           </a>
-          <a class="socialmedialink" href="https://bsky.app/profile/aten.kohdan.net" target="_blank">
+          <a class="socialmedialink" data-simple-event="BS_click" href="https://bsky.app/profile/aten.kohdan.net" target="_blank">
             <img class="socialimg" src="/assets/images/social/Bluesky.svg" alt="Bluesky">
           </a>
-          <a class="socialmedialink" href="https://www.github.com/akohtala/" target="_blank">
+          <a class="socialmedialink" data-simple-event="GH_click" href="https://www.github.com/akohtala/" target="_blank">
             <img class="githubimg" src="/assets/images/social/Github.svg" alt="Github">
           </a>
         </div>
@@ -94,10 +94,9 @@
   
   <footer>
     <div class="footer">
-      <a href="/en/" class="logo-footer">Atte Kohtala</a>
+      <a href="/en/" data-simple-event="to_home_from_footer" class="logo-footer">Atte Kohtala</a>
       <p class="mid-footer">
-        <a class="anav" href="/en/contact/">Contact</a>
-        <a class="anav" href="/en/privacypolicy/">Privacy Policy</a>
+        <a class="anav" data-simple-event="to_contact_from_footer" href="/en/contact/">Contact</a>
       </p>
       <p class="copyright">
         &copy; 2026 Atte Kohtala
@@ -105,8 +104,8 @@
     </div>
   </footer>
 
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  <script async src="https://scripts.simpleanalyticscdn.com/inline-events.js"></script>
 </body>
 </html>

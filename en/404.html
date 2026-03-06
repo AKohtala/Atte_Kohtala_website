@@ -41,12 +41,12 @@
 
   <header>
     <div class="header">
-      <a href="/en/" class="logo">Atte Kohtala</a>
+      <a href="/en/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
       <nav class="mid-header">
-        <a class="anav" href="/en/piano/">Piano</a>
-        <a class="anav" href="/en/photography/">Photography</a>
-        <a class="anav" href="/en/contact/">Contact</a>
-        <a class="language-switcher" href="/">FI</a>
+        <a class="anav" data-simple-event="to_piano_from_header" href="/en/piano/">Piano</a>
+        <a class="anav" data-simple-event="to_photography_from_header" href="/en/photography/">Photography</a>
+        <a class="anav" data-simple-event="to_contact_from_header" href="/en/contact/">Contact</a>
+        <a class="language-switcher" data-simple-event="manual_language_switch" href="/404/">FI</a>
       </nav>
     </div>
   </header>
@@ -55,18 +55,17 @@
     <div class="error404-1">
       <section class="text-home-1">
         <h1 class="error404h1">404</h1>
-        <a href="/en/index.html">
-          <button>To the homepage</button>
+        <a href="/en/">
+          <button data-simple-event="to_home_from_404_button">To the homepage</button>
         </a>
     </div>
   </main>
   
   <footer>
     <div class="footer">
-      <a href="/en/" class="logo-footer">Atte Kohtala</a>
+      <a href="/en/" data-simple-event="to_home_from_footer" class="logo-footer">Atte Kohtala</a>
       <p class="mid-footer">
-        <a class="anav" href="/en/contact/">Contact</a>
-        <a class="anav" href="/en/privacypolicy/">Privacy Policy</a>
+        <a class="anav" data-simple-event="to_contact_from_footer" href="/en/contact/">Contact</a>
       </p>
       <p class="copyright">
         &copy; 2026 Atte Kohtala
@@ -74,8 +73,8 @@
     </div>
   </footer>
 
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  <script async src="https://scripts.simpleanalyticscdn.com/inline-events.js"></script>
 </body>
 </html>

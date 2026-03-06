@@ -47,12 +47,12 @@
 
   <header>
     <div class="header">
-      <a href="/" class="logo">Atte Kohtala</a>
+      <a href="/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
       <nav class="mid-header">
-        <a class="anav" href="/piano/">Piano</a>
-        <a class="anav" href="/valokuvaus/">Valokuvaus</a>
-        <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
-        <a class="language-switcher" href="/en/photography/">EN</a>
+        <a class="anav" data-simple-event="to_piano_from_header" href="/piano/">Piano</a>
+        <a class="anav" data-simple-event="to_photography_from_header" href="/valokuvaus/">Valokuvaus</a>
+        <a class="anav" data-simple-event="to_contact_from_header" href="/yhteystiedot/">Yhteystiedot</a>
+        <a class="language-switcher" data-simple-event="manual_language_switch" href="/en/photography/">EN</a>
       </nav>
     </div>
   </header>
@@ -62,7 +62,7 @@
       <section class="text-valokuvaus-1">
         <h1>Valokuvaus</h1>
         <p>Kuvaan monipuolisesti sekä luonto- että kaupunkiympäristöjä, urheilua ja ihmisiä.</p>
-        <p>Tarkemmin voit tutustua tuotantooni esimerkiksi <a class="textlink" href="https://www.instagram.com/akohtala/" target="_blank">Instagramissa</a> tai <a class="textlink" href="https://www.facebook.com/attekohtalafinland/" target="_blank">Facebookissa</a>.</p>
+        <p>Tarkemmin voit tutustua tuotantooni esimerkiksi <a class="textlink" data-simple-event="IG_click" href="https://www.instagram.com/akohtala/" target="_blank">Instagramissa</a> tai <a class="textlink" data-simple-event="FB_click" href="https://www.facebook.com/attekohtalafinland/" target="_blank">Facebookissa</a>.</p>
       </section>
       
       <div class="images-valokuvaus-1">
@@ -81,10 +81,9 @@
   
   <footer>
     <div class="footer">
-      <a href="/" class="logo-footer">Atte Kohtala</a>
+      <a href="/" data-simple-event="to_home_from_footer" class="logo-footer">Atte Kohtala</a>
       <p class="mid-footer">
-        <a class="anav" href="/yhteystiedot/">Yhteystiedot</a>
-        <a class="anav" href="/tietosuojaseloste/">Tietosuojaseloste</a>
+        <a class="anav" data-simple-event="to_contact_from_footer" href="/yhteystiedot/">Yhteystiedot</a>
       </p>
       <p class="copyright">
         &copy; 2026 Atte Kohtala
@@ -92,8 +91,8 @@
     </div>
   </footer>
 
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-  <script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+  <script async src="https://scripts.simpleanalyticscdn.com/inline-events.js"></script>
 </body>
 </html>
