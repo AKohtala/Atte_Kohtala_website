@@ -20,6 +20,7 @@
   --secondary-font: Lora; /* --- Lora:wght@700 (serif) --- */
   --light-grey: #F3F4F6;
   --filter: invert(0%);
+  --primary-color-text: #33711c;
 }
 [data-theme="dark"] {
   --bg-color: #121412;
@@ -27,6 +28,7 @@
   --border-color: #2D2F2D;
   --light-grey: #1a1f27;
   --filter: invert(100%);
+  --primary-color-text: #E5E7EB;
 }
 
 * {
@@ -81,12 +83,26 @@ ul {
   margin-bottom: 1rem;
 }
 
+ol {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 li {
   margin-bottom: 1rem;
 }
 
 li::marker {
   color: var(--border-color);
+}
+
+.lifront::marker {
+  color: var(--text-color);
+}
+
+.lifront {
+  margin-bottom: 1.3rem;
 }
 
 h1, h2, h3 {
@@ -156,6 +172,36 @@ button:active {
 }
 
 .nappi:active {
+  opacity: 0.7;
+}
+
+.nappi_valokuvaus {
+  transition: 0.25s;
+  border: solid;
+  border-color: var(--primary-color);
+  color: var(--primary-color-text);
+  padding: 1em 1.5em;
+  margin: 0.75rem 0.5rem 0 0;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  display: inline-flex;
+  width: 128px;
+  height: 50px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.nappi_valokuvaus:hover {
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+}
+
+.nappi_valokuvaus:active {
   opacity: 0.7;
 }
 
@@ -364,6 +410,42 @@ button:active {
   }
 }
 
+
+.home-2 {
+  display: grid;
+  grid-template-areas: 
+    "image-home-2 text-home-2 ";
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.text-home-2 {
+  grid-area: text-home-2;
+  margin-left: 1.5rem;
+}
+
+.image-home-2 {
+  grid-area: image-home-2;
+  margin: auto;
+}
+
+@media (max-width: 920px) {
+  .home-2 {
+    display: grid;
+    grid-template-areas: 
+      "text-home-2"
+      "image-home-2";
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .text-home-2 {
+    margin-left: 0;
+  }
+}
+
+
 .contact-1 {
   display: grid;
   grid-template-areas: 
@@ -444,9 +526,11 @@ button:active {
 
 .yt {
   width: 100%;
-  height: 560px;
+  aspect-ratio: 16 / 9;
+  height: auto;
   border-radius: 18px;
   margin-top: 20px;
+  border: none;
 }
 
 .error404-1 {
