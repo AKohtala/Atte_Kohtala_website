@@ -451,8 +451,8 @@ button:active {
   .home-2 {
     display: grid;
     grid-template-areas: 
-      "text-home-2"
-      "image-home-2";
+      "image-home-2"
+      "text-home-2";
     gap: 20px;
     grid-template-columns: 1fr;
   }
