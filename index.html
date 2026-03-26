@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-  <script>
-    (function() {
-      if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
-        return;
-      }
-      const isBot = /bot|googlebot|crawler|bingbot|msnbot|spider|robot|crawling|lighthouse|pagespeed/i.test(navigator.userAgent);
-      if (isBot) return;
-
-      const userLang = navigator.language || navigator.userLanguage; 
-      
-      if (!userLang.startsWith('fi')) {
-        sessionStorage.setItem('language_redirected', 'true');
-        window.location.href = '/en/';
+  <!-- Automaattinen kielenohjaus, ehkä vähän huono.
+    <script>
+      (function() {
+        if (window.location.pathname.includes('/en/') || sessionStorage.getItem('language_redirected')) {
+          return;
         }
-      })();
+        const isBot = /bot|googlebot|crawler|bingbot|msnbot|spider|robot|crawling|lighthouse|pagespeed/i.test(navigator.userAgent);
+        if (isBot) return;
+
+        const userLang = navigator.language || navigator.userLanguage; 
+        
+        if (!userLang.startsWith('fi')) {
+          sessionStorage.setItem('language_redirected', 'true');
+          window.location.href = '/en/';
+          }
+        })();
   </script>
+-->
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
