@@ -264,9 +264,9 @@ button:active {
 
 
 .sticky {
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);*/
 }
 
 .header {
