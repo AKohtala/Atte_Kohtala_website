@@ -263,6 +263,11 @@ button:active {
 }
 
 
+.sticky {
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
 
 .header {
   display: flex;
@@ -273,8 +278,6 @@ button:active {
   border-color: var(--border-color);
   border-bottom-style: solid;
   padding: 20px;
-  position: sticky;
-  top: 0;
   z-index: 1000;
   background-color: var(--bg-color);
 }
