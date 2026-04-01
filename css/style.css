@@ -88,7 +88,7 @@ figcaption {
 
 .figcaption-bold {
   color: var(--primary-color);
-  padding-right: 0.5rem;
+  padding-right: 0rem;
   font-style: normal;
   font-family: 'Lora', serif;
 }
@@ -390,7 +390,7 @@ button:active {
 }
 
 .mid-footer {
-  padding: 0.7rem 0 0.8rem 0;
+  padding: 0.5rem 0 0.1rem 0;
 }
 
 .copyright {
