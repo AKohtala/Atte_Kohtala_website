@@ -71,7 +71,17 @@ p {
 }
 
 .textlink:hover {
-  color: var(--primary-color)
+  color: var(--primary-color);
+}
+
+.textlink-gray {
+  text-decoration: none;
+  color: gray;
+  transition: 0.15s;
+}
+
+.textlink-gray:hover {
+  color: gray;
 }
 
 
@@ -104,17 +114,11 @@ ul {
 ol {
   margin-left: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 li {
   margin-bottom: 1rem;
-}
-
-.tekijänoikeus{
-  text-align: right;
-  color: gray;
-  font-style: normal;
 }
 
 li::marker {
@@ -126,7 +130,21 @@ li::marker {
 }
 
 .lifront {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.tekijänoikeus {
+  text-align: right;
+  color: gray;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+.tekijänoikeus-vasen {
+  text-align: left;
+  color: gray;
+  font-style: normal;
+  margin-bottom: 1rem;
 }
 
 h1, h2, h3 {
@@ -471,6 +489,18 @@ button:active {
     margin-left: 0;
   }
 }
+
+
+.piano-cv {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.image-piano-1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 
 
 .contact-1 {
