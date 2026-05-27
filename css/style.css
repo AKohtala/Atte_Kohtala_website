@@ -111,6 +111,12 @@ li {
   margin-bottom: 1rem;
 }
 
+.tekijänoikeus{
+  text-align: right;
+  color: gray;
+  font-style: normal;
+}
+
 li::marker {
   color: var(--border-color);
 }
