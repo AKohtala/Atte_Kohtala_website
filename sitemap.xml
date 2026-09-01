@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://aten.kohdan.net/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/" />
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://attekohtala.fi/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/" />
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/en/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/" />
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://attekohtala.fi/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/" />
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://aten.kohdan.net/piano/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/piano/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/piano/" />
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://attekohtala.fi/piano/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/piano/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/piano/" />
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/en/piano/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/piano/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/piano/" />
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://aten.kohdan.net/valokuvaus/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/valokuvaus/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/photography/" />
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://aten.kohdan.net/en/photography/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/valokuvaus/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/photography/" />
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://attekohtala.fi/en/piano/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/piano/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/piano/" />
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://aten.kohdan.net/yhteystiedot/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/yhteystiedot/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/contact/" />
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://attekohtala.fi/valokuvaus/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/valokuvaus/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/photography/" />
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aten.kohdan.net/en/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://aten.kohdan.net/yhteystiedot/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://aten.kohdan.net/en/contact/" />
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://attekohtala.fi/en/photography/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/valokuvaus/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/photography/" />
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://attekohtala.fi/yhteystiedot/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/yhteystiedot/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/contact/" />
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://attekohtala.fi/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/yhteystiedot/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/contact/" />
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

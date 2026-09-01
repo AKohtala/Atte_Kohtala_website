@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aten.kohdan.net/sitemap.xml
+Sitemap: https://attekohtala.fi/sitemap.xml
