@@ -81,7 +81,7 @@
   </script>
 
   <script>
-    function myFunction2() {
+    function opening() {
       var x = document.getElementById("funk-menneet");
       if (x.className === "menneet-lista") {
         x.className += " visible";
@@ -102,9 +102,9 @@
   <header class="header">
     <div class="header-container">
       <a href="/en/" data-simple-event="to_home_from_header" class="logo">Atte Kohtala</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <img class="hamburger" src="/assets/images/keyboard.svg">
-      </a>
+      <button type="button" class="icon" aria-label="Open navigation" onclick="myFunction()">
+        <img class="hamburger" src="/assets/images/keyboard.svg" alt="" aria-hidden="true">
+      </button>
       <nav class="mid-header" id="myTopnav">
         <a class="anav" data-simple-event="to_piano_from_header" href="/en/piano/">Piano</a>
         <a class="anav" data-simple-event="to_photography_from_header" href="/en/photography/">Photography</a>
@@ -183,7 +183,7 @@
     <section class="menneet">
         <h1 id="menneet-konsertit">Past performances</h1>
 
-        <a href="javascript:void(0);" class="nappi katso" onclick="myFunction2()">Open/Close</a>
+        <button class="nappi katso" onclick="opening()">Open/Close</button>
 
         <div class="menneet-lista" id="funk-menneet">
           <div class="laatikko">

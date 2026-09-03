@@ -347,21 +347,28 @@ button:active {
   padding: 8px 16px;
 }
 
-.icon {
+button.icon {
   border-color: #121412;
   border-style: solid;
-  border-radius: 5%;
+  border-radius: 5px;
+  border-width: 2px;
   width: 40px;
   height: 40px;
   transition: 0.15s;
   display: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
 }
 
 .hamburger {
   overflow: visible; /* Estää kulmien pyöristymisen */
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-.icon:hover {
+button.icon:hover {
   opacity: 0.8;
 }
 
@@ -371,9 +378,8 @@ button:active {
     width: 100%;
   }
 
-  .icon {
-    display: inline;
-    align-items: center;
+  button.icon {
+    display: block;
   }
 
   .mid-header.responsive {
