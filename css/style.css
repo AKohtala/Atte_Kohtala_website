@@ -76,12 +76,12 @@ p {
 
 .textlink-gray {
   text-decoration: none;
-  color: gray;
+  color: rgb(80, 80, 80);
   transition: 0.15s;
 }
 
 .textlink-gray:hover {
-  color: gray;
+  color: rgb(80, 80, 80);
 }
 
 
@@ -138,14 +138,14 @@ li::marker {
 
 .tekijänoikeus {
   text-align: right;
-  color: gray;
+  color: rgb(80, 80, 80);
   font-style: normal;
   margin-bottom: 1rem;
 }
 
 .tekijänoikeus-vasen {
   text-align: left;
-  color: gray;
+  color: rgb(80, 80, 80);
   font-style: normal;
   margin-bottom: 1rem;
 }
