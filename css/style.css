@@ -340,6 +340,11 @@ button:active {
   color: var(--primary-color);
 }
 
+.asterix {
+  color: red;
+  font-weight: bold;
+}
+
 .language-switcher {
   text-decoration: underline;
   color: var(--text-color);
@@ -359,6 +364,7 @@ button.icon {
   background: transparent;
   cursor: pointer;
   padding: 0;
+  filter: var(--filter);
 }
 
 .hamburger {
