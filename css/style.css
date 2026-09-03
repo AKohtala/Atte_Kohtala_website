@@ -298,36 +298,14 @@ button:active {
 }
 
 .header {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 20px;
   border-bottom: 1px;
   border-color: var(--border-color);
   border-bottom-style: solid;
-  padding: 20px;
-  z-index: 1000;
-  background-color: var(--bg-color);
 }
 
 .mid-header {
-  align-items: center;
-  grid-area: mid-header;
-  display: flex;
-  justify-content: center;
-  flex: wrap;
-}
-
-.anav {
-  text-decoration: none;
-  font-weight: 700;
-  color: var(--text-color);
-  transition: 0.15s;
-  padding: 0.5rem 1rem;
-}
-
-.anav:hover {
-  color: var(--primary-color)
+  
 }
 
 .logo {
@@ -338,6 +316,7 @@ button:active {
   color: var(--text-color);
   transition: 0.15s;
   text-decoration: none;
+  display: inline;
 }
 
 .logo:hover {
@@ -345,45 +324,80 @@ button:active {
   opacity: 0.8;
 }
 
+.anav {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--text-color);
+  transition: 0.15s;
+  padding: 0 0.75rem;
+  text-align: center;
+} 
+
+.anav:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.15s;
+  padding: 0 0.75rem;
+  text-align: center;
+}
+
 .language-switcher {
-  grid-area: language-switcher;
   text-decoration: underline;
   color: var(--text-color);
   font-weight: 700;
   padding: 8px 16px;
 }
 
-@media (max-width: 920px) {
-  .header {
-    display: grid;
-    grid-template-areas: 
-      "logo"
-      "mid-header";
-    grid-template-columns: 1fr;
-  }
-
-  .logo {
-    grid-area: logo;
-    justify-self: center;
-    font-size: 1.5rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .mid-header {
-    grid-area: mid-header;
-    justify-self: center;
-  }
-
-  .language-switcher {
-    grid-area: language-switcher;
-    text-decoration: underline;
-    color: var(--text-color);
-    font-weight: 700;
-  }
+.icon {
+  border-color: #121412;
+  border-style: solid;
+  border-radius: 5%;
+  width: 40px;
+  height: 40px;
+  transition: 0.15s;
+  display: none;
 }
 
+.hamburger {
+  object-fit: contain;
+  overflow: visible;
+}
 
+.icon:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 920px) {
+  .mid-header {
+    display: none;
+    width: 100%;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .mid-header.responsive {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .mid-header.responsive .anav,
+  .mid-header.responsive .language-switcher {
+    display: block;
+    text-align: left;
+    padding: 15px 10px;
+    border-top: 2px solid var(--border-color);
+  }
+}
 
 .footer {
   grid-template-areas: 
@@ -428,6 +442,16 @@ button:active {
   margin-inline: auto;
   padding: 20px 20px;
   background-color: var(--bg-color);
+}
+
+.header-container {
+  max-width: 1000px;
+  margin-inline: auto;
+  background-color: var(--bg-color);
+  display: flex;  /* Tässä hyvä tapa tehdä tämä */
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center;
 }
 
 .home-1 {
