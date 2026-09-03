@@ -103,6 +103,9 @@ figcaption {
   font-family: 'Lora', serif;
 }
 
+.text-date {
+  font-family: 'Lora', serif;
+}
 
 ul {
   margin-left: 3rem;
@@ -388,6 +391,11 @@ button:active {
   }
 }
 
+.lista-konserteista {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
 .footer {
   grid-template-areas: 
     "logo"
@@ -528,6 +536,25 @@ button:active {
 }
 
 
+.menneet-lista {
+  display: none;
+}
+
+.menneet-lista.visible {
+  display: block;
+  
+}
+
+.laatikko {
+  background-color: var(--light-grey);
+  border-radius: 15px;
+  padding: 0.25rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.katso {
+  margin: 1rem 0 2rem 0;
+}
 
 .contact-1 {
   display: grid;
