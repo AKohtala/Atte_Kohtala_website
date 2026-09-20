@@ -124,6 +124,21 @@ li {
   margin-bottom: 1rem;
 }
 
+.pp_li {
+  margin: 0;
+}
+
+.pp_ul {
+  margin-left: 3rem;
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.pp_li_header {
+  margin: 0;
+}
+
 li::marker {
   color: var(--border-color);
 }
@@ -350,6 +365,15 @@ button:active {
   color: var(--text-color);
   font-weight: 700;
   padding: 8px 16px;
+}
+
+.pp_link {
+  margin-left: 2rem;
+  color: var(--text-color);
+}
+
+.pp_link:hover {
+  cursor: pointer;
 }
 
 button.icon {
