@@ -5,7 +5,7 @@
     <loc>https://attekohtala.fi/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,7 +13,7 @@
     <loc>https://attekohtala.fi/en/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -22,7 +22,7 @@
     <loc>https://attekohtala.fi/piano/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/piano/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/piano/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -30,7 +30,7 @@
     <loc>https://attekohtala.fi/en/piano/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/piano/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/piano/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -39,7 +39,7 @@
     <loc>https://attekohtala.fi/valokuvaus/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/valokuvaus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/photography/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -47,7 +47,7 @@
     <loc>https://attekohtala.fi/en/photography/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/valokuvaus/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/photography/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,7 +56,7 @@
     <loc>https://attekohtala.fi/yhteystiedot/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/yhteystiedot/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/contact/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -64,9 +64,26 @@
     <loc>https://attekohtala.fi/en/contact/</loc>
     <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/yhteystiedot/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/contact/" />
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://attekohtala.fi/tietosuojaseloste/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/tietosuojaseloste/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/privacypolicy/" />
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://attekohtala.fi/en/privacypolicy/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://attekohtala.fi/tietosuojaseloste/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://attekohtala.fi/en/privacypolicy/" />
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
