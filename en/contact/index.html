@@ -104,13 +104,13 @@
         <form class="form" action="https://formspree.io/f/xzezrwjp" data-simple-event="contact_form_sent" method="POST">
           <h2 class="contacth2">Contact using this form</h2>
           <h3 class="contacth3">Your name <span class="asterix"> *</span></h3>
-          <input class="form-input" type="text" name="name" placeholder="Name">
+            <input class="form-input" type="text" name="name" placeholder="Name" required>
           <h3 class="contacth3">Your email address <span class="asterix"> *</span></h3>
-          <input class="form-input" type="text" name="email" placeholder="Email">
+            <input class="form-input" type="email" name="email" placeholder="Email" required>
           <h3 class="contacth3">Message <span class="asterix"> *</span></h3>
-          <textarea class="form-input-message" name="message" placeholder="Type your message"></textarea>
-          <p><i>By pressing "submit" you confirm you have read and accepted our <a class="textlink" href="/en/privacypolicy/" target="_blank">privacy policy</a>.</i></p>
-          <button class="form-button">Submit</button>
+            <textarea class="form-input-message" name="message" placeholder="Type your message" required></textarea>
+          <p class="p_no_margin"><i>By pressing "submit" you confirm you have read and accepted our <a class="textlink" href="/en/privacypolicy/" target="_blank">privacy policy</a>.</i></p>
+          <button class="form-button" type="submit">Submit</button>
         </form>
       </div>
     </div>

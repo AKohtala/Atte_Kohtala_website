@@ -376,6 +376,10 @@ button:active {
   cursor: pointer;
 }
 
+.p_no_margin {
+  margin: 0;
+}
+
 button.icon {
   border-color: #121412;
   border-style: solid;
