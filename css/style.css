@@ -380,6 +380,12 @@ button:active {
   margin: 0;
 }
 
+.kiitos {
+  font-size: 5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 button.icon {
   border-color: #121412;
   border-style: solid;
