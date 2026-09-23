@@ -52,6 +52,8 @@
     } 
   </script>
 
+  <script src="https://unpkg.com/@botpoison/browser" async></script>
+
   <meta property="og:title" content="Yhteystiedot | Atte Kohtala" />
   <meta property="og:description" content="Aten yhteystiedot." />
   <meta property="og:type" content="website" />
@@ -103,7 +105,7 @@
         </section>
       </div>
       <div class="form-contact-1">
-        <form class="form" action="https://formspree.io/f/xzezrwjp" data-simple-event="contact_form_sent" method="POST">
+        <form id="form" class="form" action="https://submit-form.com/kxx152qeu" data-botpoison-public-key="pk_cd8e12bd-2f3d-4a01-a6b6-1a64794cb639" data-simple-event="contact_form_sent" method="POST">
           <h2 class="contacth2">Ota yhteyttä lomakkeella</h2>
           <h3 class="contacth3">Nimesi <span class="asterix"> *</span></h3>
             <input class="form-input" type="text" name="name" placeholder="Nimesi" required>
@@ -112,9 +114,21 @@
           <h3 class="contacth3">Viesti <span class="asterix"> *</span></h3>
             <textarea class="form-input-message" name="message" placeholder="Kirjoita viesti" required></textarea>
           <p class="p_no_margin"><i>Painamalla "lähetä" hyväksyt <a class="textlink" href="/tietosuojaseloste/" target="_blank">tietosuojaselosteen</a>.</i></p>
-          <button class="form-button" type="submit">Lähetä</button>
+          <button id="button" class="form-button" type="submit" data-simple-event="contact_form_sent">Lähetä</button>
         </form>
-        
+        <script>
+          var formElement = document.getElementById("form");
+          var buttonElement = document.getElementById("button");
+          formElement.addEventListener("botpoison-challenge-start", function () {
+            buttonElement.setAttribute("disabled", "disabled");
+          });
+          formElement.addEventListener("botpoison-challenge-success", function () {
+            buttonElement.removeAttribute("disabled");
+          });
+          formElement.addEventListener("botpoison-challenge-error", function () {
+            buttonElement.removeAttribute("disabled");
+          });
+        </script>
       </div>
     </div>
   </main>

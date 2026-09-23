@@ -50,6 +50,8 @@
     } 
   </script>
 
+  <script src="https://unpkg.com/@botpoison/browser" async></script>
+
   <meta property="og:title" content="Contact | Atte Kohtala" />
   <meta property="og:description" content="Here you can find Atte's contact information." />
   <meta property="og:type" content="website" />
@@ -101,7 +103,7 @@
         </section>
       </div>
       <div class="form-contact-1">
-        <form class="form" action="https://formspree.io/f/xzezrwjp" data-simple-event="contact_form_sent" method="POST">
+        <form id="form" class="form" action="https://submit-form.com/kxx152qeu" data-botpoison-public-key="pk_cd8e12bd-2f3d-4a01-a6b6-1a64794cb639" data-simple-event="contact_form_sent" method="POST">
           <h2 class="contacth2">Contact using this form</h2>
           <h3 class="contacth3">Your name <span class="asterix"> *</span></h3>
             <input class="form-input" type="text" name="name" placeholder="Name" required>
@@ -110,8 +112,21 @@
           <h3 class="contacth3">Message <span class="asterix"> *</span></h3>
             <textarea class="form-input-message" name="message" placeholder="Type your message" required></textarea>
           <p class="p_no_margin"><i>By pressing "submit" you confirm you have read and accepted our <a class="textlink" href="/en/privacypolicy/" target="_blank">privacy policy</a>.</i></p>
-          <button class="form-button" type="submit">Submit</button>
+          <button id="button" class="form-button" type="submit" data-simple-event="contact_form_sent">Submit</button>
         </form>
+        <script>
+          var formElement = document.getElementById("form");
+          var buttonElement = document.getElementById("button");
+          formElement.addEventListener("botpoison-challenge-start", function () {
+            buttonElement.setAttribute("disabled", "disabled");
+          });
+          formElement.addEventListener("botpoison-challenge-success", function () {
+            buttonElement.removeAttribute("disabled");
+          });
+          formElement.addEventListener("botpoison-challenge-error", function () {
+            buttonElement.removeAttribute("disabled");
+          });
+        </script>
       </div>
     </div>
   </main>
