@@ -1,6 +1,12 @@
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
 
 <IfModule mod_headers.c>
     Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://scripts.simpleanalyticscdn.com https://unpkg.com 'unsafe-inline'; connect-src 'self' https://queue.simpleanalyticscdn.com https://submit-form.com/ https://api.botpoison.com; img-src 'self' https://queue.simpleanalyticscdn.com; frame-src 'self'; form-action 'self' https://submit-form.com; frame-ancestors 'none'; upgrade-insecure-requests"
