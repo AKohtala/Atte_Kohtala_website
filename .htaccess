@@ -1,0 +1,21 @@
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' https://scripts.simpleanalyticscdn.com https://unpkg.com 'unsafe-inline'; connect-src 'self' https://queue.simpleanalyticscdn.com https://submit-form.com/ https://api.botpoison.com; img-src 'self' https://queue.simpleanalyticscdn.com; frame-src 'self'; form-action 'self' https://submit-form.com; frame-ancestors 'none'; upgrade-insecure-requests"
+
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+    Header set Cross-Origin-Opener-Policy "same-origin"
+
+    Header set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+    Header set X-Content-Type-Options "nosniff"
+
+    Header set X-Frame-Options "SAMEORIGIN"
+
+    Header set X-Xss-Protection "1; mode=block"
+</IfModule>
