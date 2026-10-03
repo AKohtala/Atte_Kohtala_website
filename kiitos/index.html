@@ -25,30 +25,8 @@
   <meta name="apple-mobile-web-app-title" content="Atte Kohtala" />
   <link rel="manifest" href="/assets/images/site.webmanifest" />
 
-  <!-- Script and dark theme function by Miguel Grinberg (https://blog.miguelgrinberg.com/post/how-to-add-dark-mode-support-to-your-website) -->
-  <script>
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)')
-
-    function updateTheme() {
-      const theme = prefersDarkMode.matches ? 'dark' : 'light'
-      document.documentElement.setAttribute('data-theme', theme)
-    }
-
-    updateTheme();
-    prefersDarkMode.addEventListener("change", () => updateTheme());
-  </script>
-
-  <!-- https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "mid-header") {
-        x.className += " responsive";
-      } else {
-        x.className = "mid-header";
-      }
-    } 
-  </script>
+  <script src="/js/darkmode.js"></script>
+  <script defer src="/js/navigation.js"></script>
 
 </head>
 <body>

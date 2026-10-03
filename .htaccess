@@ -7,8 +7,12 @@
 
     # HTTP -> HTTPS
     RewriteCond %{HTTPS} !=on
-    RewriteRule ^ https://attekohtala.fi%{REQUEST_URI} [R=301,L,NE]
+    RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 </IfModule>
+
+ServerSignature Off
+
+ErrorDocument 404 /404.html
 
 <IfModule mod_headers.c>
     Header set Content-Security-Policy "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://scripts.simpleanalyticscdn.com https://unpkg.com 'unsafe-inline'; connect-src 'self' https://queue.simpleanalyticscdn.com https://submit-form.com/ https://api.botpoison.com; img-src 'self' https://queue.simpleanalyticscdn.com; frame-src 'self'; form-action 'self' https://submit-form.com; frame-ancestors 'none'; upgrade-insecure-requests"
@@ -21,15 +25,31 @@
 
     Header set Referrer-Policy "strict-origin-when-cross-origin"
 
-    Header set X-Content-Type-Options "nosniff"
+    Header always set X-Content-Type-Options "nosniff"
 
     Header set X-Frame-Options "SAMEORIGIN"
 
     Header set X-Xss-Protection "1; mode=block"
 </IfModule>
 
+<IfModule mod_authz_core.c>
+  <FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|orig|psd|sh|sql|sw[op])|~)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
+    RewriteCond %{SCRIPT_FILENAME} -d [OR]
+    RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteRule "(^|/)\." - [F]
+</IfModule>
+
 <IfModule mod_expires.c>
     ExpiresActive On
+
+    ExpiresDefault "access plus 1 month"
 
     ExpiresByType text/css "access plus 1 day"
     ExpiresByType image/jpg "access plus 1 year"
