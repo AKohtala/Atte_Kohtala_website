@@ -1,28 +1,32 @@
-name: Deploy website on push
-
+name: Deploy via SFTP
 on:
   push:
     branches:
       - oma
-
 jobs:
-  web-deploy:
-    name: Deploy via SFTP
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
-
+    if: github.event_name == 'push'
     steps:
-    - name: Get latest code
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
-    - name: Sync via SFTP using lftp
-      env:
-        HOST: ${{ secrets.ftp_server }}
-        USER: ${{ secrets.ftp_username }}
-        PASS: ${{ secrets.ftp_password }}
-      run: |
-        sudo apt-get update && sudo apt-get install -y lftp
-        lftp -c "
-        set sftp:auto-confirm yes;
-        open -u $USER,$PASS sftp://$HOST:22;
-        mirror -R --delete --exclude .git/ --exclude .github/ --verbose ./ ./www/;
-        "
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          # SFTP credentials
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          user: ${{ secrets.FTP_USERNAME }}
+          pass: ${{ secrets.FTP_PASSWORD }}
+          # lftp settings
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
+          # Mirror command options
+          localDir: '.'
+          remoteDir: './www/'
+          reverse: true
+          ignoreFile: '.lftp_ignore'
