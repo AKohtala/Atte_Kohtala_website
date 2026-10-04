@@ -1,33 +1,29 @@
-name: Deploy via SFTP
+name: Deploy Files
+
 on:
   push:
     branches:
       - oma
+
 jobs:
   deploy:
-    name: Deploy
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
 
-      - name: Deploy files via SFTP
-        uses: pressidium/lftp-mirror-action@v1
+      - name: SFTP upload
+        uses: Dylan700/sftp-upload-action@v1.2.5
         with:
-          # SFTP credentials
-          host: ${{ secrets.FTP_SERVER }}
-          port: ${{ secrets.FTP_PORT }}
-          user: ${{ secrets.FTP_USERNAME }}
-          pass: ${{ secrets.FTP_PASSWORD }}
-          # lftp settings
-          onlyNewer: true
-          settings: 'sftp:auto-confirm=yes'
-          forceSSL: false
-          # Mirror command options
-          localDir: '.'
-          remoteDir: './www/'
-          reverse: true
-          ignoreFile: '.lftp_ignore'
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.SFTP_PORT }}
+          uploads: |
+            ./ => ./www/
+          ignore: |
+            *.git
+            */**/*git*
+            *.github
+            */**/*.github*
+          delete: 'true'
