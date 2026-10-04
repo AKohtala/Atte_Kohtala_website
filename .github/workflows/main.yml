@@ -25,6 +25,7 @@ jobs:
           # lftp settings
           onlyNewer: true
           settings: 'sftp:auto-confirm=yes'
+          forceSSL: false
           # Mirror command options
           localDir: '.'
           remoteDir: './www/'
